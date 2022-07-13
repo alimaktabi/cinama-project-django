@@ -9,6 +9,9 @@ class Cinema(models.Model):
     address = models.TextField()
     about = models.TextField()
 
+    def __str__(self):
+        return self
+
 
 class Movie(models.Model):
     Name = models.CharField(max_length=50)
@@ -20,14 +23,14 @@ class Movie(models.Model):
 
 
 class Sans(models.Model):
-    movie_name = models.Foreignkey(Movie, on_delete=models.CASCADE)
-    start_time = models.Datetime
+    movie_name = models.ForeignKey('Movie', on_delete=models.CASCADE)
+    start_time = models.DateTimeField
     price = models.IntegerField
 
 
 class Ticket(models.Model):
-    name = models.Foreignkey(Movie , on_delete=models.PROTECT)
-    movie = models.Foreignkey(Sans , on_delete=models.CASCADE)
+    name = models.ForeignKey('Movie' , on_delete=models.PROTECT)
+    movie = models.ForeignKey('Sans' , on_delete=models.CASCADE)
     count = models.IntegerField
     seat = models.IntegerField
 
