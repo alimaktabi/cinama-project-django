@@ -29,7 +29,7 @@ class Movie(models.Model):
 
 class Sans(models.Model):
     movie_name = models.ForeignKey('Movie', on_delete=models.CASCADE)
-    start_time = models.DateTimeField(default=)
+    start_time = models.DateTimeField()
     price = models.IntegerField(default=10000)
 
 
