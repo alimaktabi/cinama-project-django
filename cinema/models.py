@@ -1,6 +1,7 @@
 import random
 
 from django.db import models
+from django.utils import timezone
 
 
 class Cinema(models.Model):
@@ -29,8 +30,11 @@ class Movie(models.Model):
 
 class Sans(models.Model):
     movie_name = models.ForeignKey('Movie', on_delete=models.CASCADE)
-    start_time = models.DateTimeField()
+    start_time = models.DateTimeField(default=timezone.now)
     price = models.IntegerField(default=10000)
+
+    class Meta:
+        verbose_name_plural = "sans"
 
 
 class Ticket(models.Model):
