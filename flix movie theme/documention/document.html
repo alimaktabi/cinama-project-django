@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlixMovie Documentation</title>
+    <link rel="icon" href="../assest/logo/film.ico">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<style>
+    .center {
+        text-align: center;
+    }
+
+    .title {
+        color: #f1f1f1;
+        padding: 0.6rem 0;
+        margin: 1rem 0;
+        border-bottom: 1px solid rgba(204, 204, 204, 0.2);
+    }
+
+    .border {
+        border-bottom: 1px solid rgba(204, 204, 204, 0.2);
+    }
+
+    .branch-t {
+        font-size: 1.3rem;
+        color: #f1f1f1;
+        text-transform: uppercase;
+    }
+
+    .branch {
+        padding-right: 1rem;
+        margin-right: 1rem;
+        border-right: 2px solid #12ae40;
+    }
+
+    p {
+        text-align: justify;
+        margin: 0.5rem 0;
+    }
+
+    main {
+        max-width: 1330px;
+        margin: 0 auto;
+        padding: 0.5rem 1.8rem;
+    }
+
+    body {
+        padding: .4rem 1.4rem;
+        line-height: 1.8;
+    }
+
+    ul {
+        margin-bottom: 2rem;
+    }
+
+    li {
+        list-style: none;
+        margin-bottom: 0.8rem;
+    }
+
+    a {
+        display: block;
+        margin-bottom: 0.5rem;
+        width: max-content;
+        color: #5facfa;
+        border-bottom: 1px solid currentColor;
+        font-size: 1.2rem;
+    }
+
+    a:hover {
+        color: #fa697c;
+    }
+</style>
+
+<body>
+    <main>
+        <h1 class="center title">داکیومنت قالب فلیکس مووی</h1>
+        <p>با سلام خدمت شما خریدار گرامی مفتخریم از اینکه قالب فلیکس مووی را انتخاب و خریداری کرده اید در ادامه این صفحه
+            میتوانید تمامی آموزش های مربوط به توضیحات ساختار بندی فایل ها را مطالعه نمایید و اگر در هرجای سفارشی سازی
+            قالب به مشکلی برخوردید میتوانید از طریق راه های ارتباطی زیر و یا از طریق سایت راست چین با ما در تماس باشید.
+        </p>
+        <h2 class="title">ساختار بندی فایل ها</h2>
+        <p>ساختار فایل ها به صورت زیر می باشد که در روبه روی هر فایل توضیح داده شده برای چه بخشی می باشد و ساختار بر
+            اساس حروف الفبا نوشته شده است.</p>
+        <div>
+            <ul>
+                <li class="branch-t">Actors</li>
+                <li class="branch">حاوی 6 فایل با فرمت html و تمامی صفحه ها مربوط به صفحه بازیگران می باشد</li>
+            </ul>
+            <ul>
+                <li class="branch-t">Articles</li>
+                <li class="branch">حاوی 3 فایل با فرمت html و در این صفحات فول پیج ویدیو می باشد که فقط درون آن کتابخانه
+                    video.js بارگزاری شده است</li>
+            </ul>
+            <ul>
+                <li class="branch-t">Assest</li>
+                <li class="branch">حاوی 5 پوشه با نام های</li>
+                <li class="branch">actors (عکس بازیگران)</li>
+                <li class="branch">blog-images (عکس مربوط به صفحات وبلاگ)</li>
+                <li class="branch">images (عکس های بکگراند َ، آیکون ها و...)</li>
+                <li class="branch">logo (لوگو و فاو آیکون فلیکس مووی)</li>
+                <li class="branch">videos (ویدیو ها)</li>
+            </ul>
+            <ul>
+                <li class="branch-t">CSS</li>
+                <li class="branch">main.css حاوی تمامی کد ها کامپایل شده توسط ساس</li>
+                <li class="branch">main.css.map به صورت اتوماتیک توسط کامپایلر ساس ایجاد میشود</li>
+            </ul>
+            <ul>
+                <li class="branch-t">FlixMovie Panel</li>
+                <li class="branch">addArticle صفحه اضافه کردن مقاله جدید (پنل)</li>
+                <li class="branch">addPost صفحه اضافه کردن پست جدید (پنل)</li>
+                <li class="branch">create-user ساخت کاربر جدید (پنل)</li>
+                <li class="branch">created-users کابران ساخته شده (پنل)</li>
+                <li class="branch">forgot-password صفحه فراموشی رمز عبور (پنل)</li>
+                <li class="branch">panel-comments صفحه کامنت های اخیر (پنل))</li>
+                <li class="branch">panel صفحه اصلی پنل</li>
+                <li class="branch">panelLogin صفحه لاگین پنل</li>
+                <li class="branch">post-catalogs کاتالوگ پست ها (پنل)</li>
+                <li class="branch">reset-password-sms بازنشانی رمز عبور با پیامک (پنل)</li>
+                <li class="branch">scores صفحه امتیازات (پنل)</li>
+                <li class="branch">socials صفحه شبکه های اجتماعی (پنل)</li>
+            </ul>
+            <ul>
+                <li class="branch-t">Fonts</li>
+                <li class="branch">Bebas فقط در قسمت فوتر سایت استفاده شده</li>
+                <li class="branch">iransans فونت دیفالیت قالب</li>
+                <li class="branch">iransans-bold نسخه بولد فونت ایرانسنس</li>
+                <li class="branch">iransans-normal نسخه نرمال فونت ایرانسنس</li>
+                <li class="branch">iransans-medium نسخه مدیوم فونت ایرانسنس(برای هدینگ ها استفاده شده)</li>
+                <li class="branch">شما برای سفارشی سازی فونت دلخواه خود فقط کافیست از طریق فایل global.scss تگ بادی و
+                    نام فونت دلخواه خود را وارد کنید</li>
+            </ul>
+            <ul>
+                <li class="branch-t">JS</li>
+                <li class="branch">app در این فایل اسکریپت های گلوبال برای تمامی صفحات اعمال میشوند به غیر از صفحات پنل
+                </li>
+                <li class="branch">blog این فایل مربوط به صفحات وبلاگ می باشد</li>
+                <li class="branch">comments این فایل مربوط به اضافه کردن کامنت و اعتبار سنجی فرم کامنت می باشد</li>
+                <li class="branch">contactus فایل مربوط به صفحه تماس باما و اعتبار سنجی فرم تماس باما می باشد</li>
+                <li class="branch">icon-selector مربوط به صفحه افزودن شبکه های اجتماعی در بخش پنل می باشد</li>
+                <li class="branch">panel-auth مربوط به صفحه لاگین پنل و اعتبار سنجی فرم آن می باشد</li>
+                <li class="branch">panel-texteditor مربوط به تکست ادیتور صفحه افزودن مقاله در بخش پنل می باشد</li>
+                <li class="branch">panel.js اسکریپت های گلوبال که برای تمامی صفحات پنل اعمال میشود به غیر از صفحه لاگین
+                </li>
+                <li class="branch">postinner مربوط به صفحه داخلی پست ها می باشد</li>
+                <li class="branch">searchfilter مربوط بخش جستجوی پیشرفته می باشد</li>
+            </ul>
+            <ul>
+                <li class="branch-t">Reqs</li>
+                <li class="branch">addAudioToFilm</li>
+                <li class="branch">kmplayer</li>
+                <li class="branch">videoformats</li>
+                <li class="branch">مربوط به صفحات پیش نیاز ها که لینک آن ها در فوتر می باشد</li>
+            </ul>
+            <ul>
+                <li class="branch-t">SCSS</li>
+                <li class="branch">_alerts استایل دهی آلرت باکس ها در پنل و هدر سایت</li>
+                <li class="branch">_articles-inner استایل دهی صفحات داخلی پست ها</li>
+                <li class="branch">_authentication استایل دهی بخش لاگین و فراموشی رمز عبور</li>
+                <li class="branch">_blog-post استایل دهی صفحه داخلی پست های وبلاگ</li>
+                <li class="branch">_blog استایل دهی بخش وبلاگ </li>
+                <li class="branch">_comments استایل دهی کامنت ها و فرم افزودن کامنت</li>
+                <li class="branch">_contactus استایل دهی صفحه تماس باما</li>
+                <li class="branch">_desktopmenu استایل دهی منوی دسکتاب</li>
+                <li class="branch">_extends تمامی کلاس های از قبل تعریف شده در این فایل میباشد</li>
+                <li class="branch">_fonts لینک دهی فونت ها</li>
+                <li class="branch">_footer استایل دهی فوتر</li>
+                <li class="branch">_fullpage-video مربوط به استایل دهی صفحه ای که video.js در آن بارگزاری شده است</li>
+                <li class="branch">_global ریست استایل های پیشفرض css و استایل های گلوبال که برای تمامی صفحات اعمال می
+                    شود</li>
+                <li class="branch">_header استایل دهی بخش هدر </li>
+                <li class="branch">_loader استایل دهی انیمیشن ها بارگزاری و صفحه لودر ها</li>
+                <li class="branch">_mixins میکسین ها</li>
+                <li class="branch">_mobilenavbar مربوط به استایل دهی منو موبایل</li>
+                <li class="branch">_page404 استایل دهی صفحه 404</li>
+                <li class="branch">_panel استایل های گلوبال برای صفحات پنل</li>
+                <li class="branch">_requament استایل دهی صفحه پیش نیاز ها</li>
+                <li class="branch">_variables متغیر های ساس رنگ ها بریک پوینت ها و...</li>
+                <li class="branch">_vipbtn استایل دکمه نقد و بررسی فیلم در هدر</li>
+                <li class="branch">main تمامی لینک های ساس را مدیریت میکند</li>
+            </ul>
+            <ul>
+                <li class="branch-t">HTML PAGES</li>
+                <li class="branch">250-imdb صفحه 250 فیلم برتر imdb</li>
+                <li class="branch">404 صفحه 404</li>
+                <li class="branch">animemorbati صفحه دانلود فیلم انیمه موریاتی</li>
+                <li class="branch">articles-demos صفحه دمو پست ها</li>
+                <li class="branch">blog-post صفحه پست وبلاگ (ونوم)</li>
+                <li class="branch">blog-post2 صفحه پست وبلاگ (بازی مرکب)</li>
+                <li class="branch">blog صفحه اصلی وبلاگ</li>
+                <li class="branch">collection صفحه کالکشن فیلم ها</li>
+                <li class="branch">contactus صفحه تماس باما</li>
+                <li class="branch">dc-movies صفحه فیلم های DC</li>
+                <li class="branch">index صفحه اصلی</li>
+                <li class="branch">index2 صفحه دوم</li>
+                <li class="branch">loaders صفحه انیمیشن ها بارگزاری</li>
+                <li class="branch">marvel صفحه فیلم های مارول</li>
+                <li class="branch">matrix صفحه دانلود فیلم ماتریکس (به زودی)</li>
+                <li class="branch">meydanesorkh صفحه دانلود سریال میدان سرخ</li>
+                <li class="branch">nostagia صفحه نوستالژی ها</li>
+                <li class="branch">oscar صفحه اسکار</li>
+                <li class="branch">squidgame صفحه دانلود سریال بازی مرکب</li>
+                <li class="branch">top-choises-blog صفحه بهترین ها مربوط به بخش وبلاگ</li>
+                <li class="branch">venom-tag صفحه تگ ونوم مربوط به بخش وبلاگ</li>
+                <li class="branch">venom صفحه دانلود فیلم ونوم (به زودی) </li>
+            </ul>
+        </div>
+
+        <h1 class=" title">
+            نحوه نصب قالب
+        </h1>
+        <p>
+            برای نصب قالب تنها کافیست فایل دانلودی خود را قبل از اینکه روی هاست خود بارگزاری کنید آن را بر اساس سلایق
+            خود سفارشی سازی کنید و در نهایت فایل اصلی قالب را به حالت فشرده با برنامه هایی نظیر winrar در بیاورید و قبل
+            اینکه داخل هاست خود فایل را بارگزاری کنید مطمعن شوید که فرمت فایل فشرده شده zip باشد و پس از اینکه فایل را
+            بارگزاری کردید میتوانید با راست کلیک کردن روی فایل و زدن گزینه extrack آن را از حالت فشرده خارج کرده و هم
+            اکنون قالب شما آماده برای استفاده در فضای وب می باشد.
+        </p>
+
+        <h1 class=" title">
+            تغییر فونت قالب
+        </h1>
+        <p>
+            برای تغییر فونت قالب میتوانید وارد فولدر قالب فلیکس شوید و از طریق مسیر => scss/_fonts.scss نام فونت دلخواه
+            خود را از ویژگی font-family کپی کنید و در این مسیر پیست کنید scss/_global.scss/line 100 خط 110 در بخشی که
+            نام فونت پیشفرض یعنی iransans می باشد را پاک کنید و نام فونت دلخواه خود را بین دابل کوتیشن ها وارد کنید.
+        </p>
+
+        <h1 class="title">فشرده سازی فایل ها</h1>
+        <p>برای فشرده سازی فایل های css و js میتوانید از سایت های زیر استفاده کنید</p>
+        <a href="https://www.cleancss.com/css-minify/">CSS Minify</a>
+        <a href="https://www.minifier.org/">JS Minify</a>
+
+        <h1 class="title">رمز گذاری فایل های جاوا اسکریپت</h1>
+        <p>همانطور که میدانید قالب های HTML را به راحتی میتواند توسط شخص دیگری نال و استفاده های تجاری از قالب شود
+            برای جلوگیری از این عمل میتوانید فایل های جاوا اسکریپت خود را از طریق سایت زیر رمز گذاری کنید تا برخی از
+            سودجویان نتوانند فایل های جاوا اسکریپت را تغییر دهند</p>
+        <a href="https://obfuscator.io/">JavaScript Obfuscator Tool</a>
+
+        <h2 class="title">سفارشی سازی قالب توسط تیم ایلوژن</h2>
+        <p>در سفارشی سازی قالب اگر مشکلی دارید میتوانید با ما تماس بگیرید تا به صورت 100% رایگان برای شما قالب را سفارشی
+            سازی کنیم و یا اگر میخواهید فیچر های جدید و... به قالب اضافه کنید میتوانید به تیم ما تیکت ارسال کنید از طریق
+            راست چین تا رسیدگی شود.</p>
+    </main>
+</body>
+
+</html>

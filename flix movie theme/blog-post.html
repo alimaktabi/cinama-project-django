@@ -1,0 +1,897 @@
+<!-- Project Name : FlixMovie -->
+<!-- Version : 1.0 -->
+<!-- Created Data : 2021/09/16 | 1400/06/25 -->
+<!-- Created By : Mahdi Illusion -->
+<!-- All rights reserved -->
+
+<html dir="rtl" lang="fa-IR" locale="IRAN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="keywords" content="MovieFlix Movie Theme">
+    <meta name="locale" content="fa_IR">
+    <meta name="url" content="https://FlixMovie.bmdec.ir">
+    <meta name="type" content="movie theme">
+    <meta name="author" content="Admin">
+    <meta name="engineer" content="Mahdi Rostami">
+    <meta name="owner" content="Admin">
+    <meta name="description" content="فلیکس مووی قالب اچ دی ام ال با اپشن های بی نظیر و کاملا بهینه">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#6898f8">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f0f0f">
+    <!-- description -->
+    <title> نقد و بررسی فیلم ونوم صفحه تست وبلاگ</title> <!-- Website Title -->
+    <link rel="icon" href="assest/logo/film.ico"> <!-- Favicon -->
+    <link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css"> <!-- Css Include -->
+    <!-- Fontawesome -->
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ---------------- -->
+    <!-- Loader animation -->
+    <script>
+        window.addEventListener("load", function () {
+            document.querySelector('.loader-parent').classList.add('loaded');
+            setTimeout(function () {
+                document.querySelector('.loader-parent').remove();
+            }, 3000)
+        });
+    </script>
+
+    <!-- loader 3 -->
+    <div class="loader-parent loader3">
+        <div class="loader-film-strip">
+            <div class="loader-strip-inner">
+                <div class="loader-film-strip-inner"></div>
+                <div class="loader-film-strip-inner inner-2"></div>
+                <div class="loader-film-strip-inner inner-3"></div>
+                <div class="loader-film-strip-inner inner-4"></div>
+            </div>
+        </div>
+        <p class="loader-text">در حال بارگزاری</p>
+    </div>
+    <!-- Loader animation end -->
+    <!-- --------------- -->
+
+    <!-- scroll top button -->
+    <button data-tooltip="برو به بالا" id="scroll-top-btn-blog" class="scroll-top-button">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <!-- Black mask -->
+    <div class="mask"></div>
+
+    <!-- Mobile Navigation Menu -->
+    <nav class="mobile-navbar">
+        <div class="mobile-logo-container">
+            <a href="index.html">
+                <img loading="lazy" src="assest/logo/mobile-navigation-icon.svg" alt="">
+            </a>
+        </div>
+
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="true">لینک دمو ها</li>
+            <ul class="mobile-menu-collapse">
+                <li class="mobile-link-item"><a href="index.html">صفحه اصلی</a></li>
+                <li class="mobile-link-item"><a href="articles-demos.html">صفحه داخلی پست ها</a></li>
+                <li class="mobile-link-item"><a href="matrix.html">صفحه در حال اکران</a></li>
+                <li class="mobile-link-item"><a href="venom.html">صفحه در حال اکران ۲</a></li>
+                <li class="mobile-link-item"><a href="spiderman.html">صفحه در حال اکران ۳</a></li>
+                <li class="mobile-link-item"><a href="meydanesorkh.html">سریال میدان سرخ</a></li>
+                <li class="mobile-link-item"><a href="contactus.html">صفحه تماس با ما</a></li>
+                <li class="mobile-link-item"><a href="blog.html">وبلاگ</a></li>
+                <li class="mobile-link-item"><a href="actors/KeanuReeves.html">صفحه بازیگران</a></li>
+            </ul>
+
+            <ul class="mobile-navigation-items">
+                <li class="mobile-menu-title" data-dropdown="false"><a href="loaders.html">لودر ها</a> </li>
+            </ul>
+
+            <li class="mobile-menu-title" data-dropdown="true">فیلم خارجی</li>
+            <ul class="mobile-menu-collapse">
+                <li class="mobile-link-item"><a href="#">اکشن</a></li>
+                <li class="mobile-link-item"><a href="#">تخیلی</a></li>
+                <li class="mobile-link-item"><a href="#">علمی</a></li>
+                <li class="mobile-link-item"><a href="#">کمدی</a></li>
+                <li class="mobile-link-item"><a href="#">هندی</a></li>
+                <li class="mobile-link-item"><a href="#">ترسناک</a></li>
+                <li class="mobile-link-item"><a href="#">درام</a></li>
+                <li class="mobile-link-item"><a href="#">تاریخی</a></li>
+                <li class="view-all-videos-mobile"><a href="#" class="view-all-videos "> همه فیلم های خارجی
+                        <svg class="arrow-left-icon" xmlns="http://www.w3.org/2000/svg"
+                            enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"
+                            fill="#f9f9f9">
+                            <rect fill="none" height="24" width="24" />
+                            <path d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z" />
+                        </svg><i></i></a></li>
+            </ul>
+        </ul>
+
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="true">فیلم ایرانی </li>
+            <ul class="mobile-menu-collapse">
+                <li class="mobile-link-item"><a href="#">اجتماعی</a></li>
+                <li class="mobile-link-item"><a href="#">کمدی</a></li>
+                <li class="mobile-link-item"><a href="#">ترسناک</a></li>
+                <li class="mobile-link-item"><a href="#">خانوادگی</a></li>
+                <li class="mobile-link-item"><a href="#">رزمی</a></li>
+                <li class="mobile-link-item"><a href="#">تاریخی</a></li>
+                <li class="view-all-videos-mobile"><a href="#" class="view-all-videos "> همه فیلم های ایرانی
+                        <svg class="arrow-left-icon" xmlns="http://www.w3.org/2000/svg"
+                            enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"
+                            fill="#f9f9f9">
+                            <rect fill="none" height="24" width="24" />
+                            <path d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z" />
+                        </svg><i></i></a></li>
+            </ul>
+        </ul>
+
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">انیمیشن</a> </li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">سریال خارجی</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">دوبله فارسی</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">انیمه</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">سریال کره ای</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="true">بهترین ها </li>
+            <ul class="mobile-menu-collapse">
+                <li class="mobile-link-item"><a href="250-imdb.html">۲۵۰ فیلم برتر IMDB</a></li>
+                <li class="mobile-link-item"><a href="collection.html">کالکشن</a></li>
+                <li class="mobile-link-item"><a href="marvel.html">فیلم های Marvel</a></li>
+                <li class="mobile-link-item"><a href="dc-movies.html">فیلم های DC</a></li>
+                <li class="mobile-link-item"><a href="oscar.html">اسکار</a></li>
+                <li class="mobile-link-item"><a href="nostalgia.html">نوستالژی</a></li>
+            </ul>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="contactus.html">ارتباط با ما</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="blog.html">نقد و بررسی فیلم</a></li>
+        </ul>
+    </nav>
+    <!-- Mobile Navigation End-->
+    <!-- -------------------- -->
+    <!-- -------------------- -->
+    <!-- -------------------- -->
+
+    <!-- Header -->
+    <header class="header">
+        <!-- Navigation bar on header -->
+        <nav class="desktop-navbar" role="navigation" aria-label="navigation">
+
+            <div class="container desktop-navbar-container">
+
+                <!-- Mobile Navbar -->
+                <div class="mobile-menu-icon">
+                    <svg role="button" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24"
+                        width="24px">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                    </svg>
+                </div>
+
+                <!-- Desktop and mobile logo -->
+                <div class="desktop-logo-container">
+                    <a href="index.html">
+                        <svg class="desktop-logo" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+                            version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512"
+                            style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <linearGradient xmlns="http://www.w3.org/2000/svg" id="SVGID_1_"
+                                    gradientUnits="userSpaceOnUse" x1="256" x2="256" y1="496" y2="16">
+                                    <stop stop-opacity="1" stop-color="#fa697c" offset="0" />
+                                    <stop stop-opacity="1" stop-color="#fa9f6f" offset="1" />
+                                </linearGradient>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path
+                                            d="m100 256c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm296 160h-360v40h360v40h40v-40h40v-40h-40zm-296-240c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0-80c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm312 0c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm40-80h-392c-33.084 0-60 26.916-60 60v240c0 33.084 26.916 60 60 60h392c33.084 0 60-26.916 60-60v-240c0-33.084-26.916-60-60-60zm20 300c0 11.028-8.972 20-20 20h-392c-11.028 0-20-8.972-20-20v-240c0-11.028 8.972-20 20-20h392c11.028 0 20 8.972 20 20zm-276-20 133.333-100-133.333-100zm40-120 26.667 20-26.667 20zm176 0c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0 80c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20z"
+                                            fill="url(#SVGID_1_)" data-original="url(#SVGID_1_)" style="fill: auto;"> />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation Items -->
+                <ul class="navigation-items">
+                    <!-- demo links -->
+                    <div class="menu-with-dropdown">
+                        <li class="navlinks-title"><a href="#">لینک دمو ها <svg class="angle-bottom-menu-icon"
+                                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                    fill="#f9f9f9">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                </svg></a></li>
+                        <ul class="dropdown-desktop-menu">
+                            <li><a href="index.html">صفحه اصلی</a></li>
+                            <li><a href="articles-demos.html">صفحه داخلی پست ها</a></li>
+                            <li><a href="matrix.html">صفحه در حال اکران</a></li>
+                            <li><a href="venom.html">صفحه در حال اکران ۲</a></li>
+                            <li><a href="spiderman.html">صفحه در حال اکران ۳</a></li>
+                            <li><a href="meydanesorkh.html">سریال میدان سرخ</a></li>
+                            <li><a href="contactus.html">صفحه تماس با ما</a></li>
+                            <li><a href="blog.html">وبلاگ</a></li>
+                            <li><a href="actors/KeanuReeves.html">صفحه بازیگران</a></li>
+                        </ul>
+                    </div>
+                    <!-- demo links end -->
+
+                    <div class="menu-with-dropdown">
+                        <li class="navlinks-title"><a href="loaders.html">لودر ها<svg class="angle-bottom-menu-icon"
+                                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                    fill="#f9f9f9">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                </svg></a></li>
+                        <ul class="dropdown-desktop-menu">
+                            <li><a href="#">اکشن</a></li>
+                            <li><a href="#">تخیلی</a></li>
+                            <li><a href="#">علمی</a></li>
+                            <li><a href="#">کمدی</a></li>
+                            <li><a href="#">هندی</a></li>
+                            <li><a href="#">ترسناک</a></li>
+                            <li><a href="#">درام</a></li>
+                            <li><a href="#">تاریخی</a></li>
+                            <li><a href="#" class="view-all-videos"> همه فیلم های خارجی <svg class="arrow-left-icon"
+                                        xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                                        height="24px" viewBox="0 0 24 24" width="24px" fill="#f9f9f9">
+                                        <rect fill="none" height="24" width="24" />
+                                        <path d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z" />
+                                    </svg><i></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-with-dropdown">
+                        <li class="navlinks-title"><a href="#">فیلم ایرانی <svg class="angle-bottom-menu-icon"
+                                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                    fill="#f9f9f9">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                </svg></a></li>
+                        <ul class="dropdown-desktop-menu">
+                            <li><a href="#">اجتماعی</a></li>
+                            <li><a href="#">کمدی</a></li>
+                            <li><a href="#">خانوادگی</a></li>
+                            <li><a href="#">اکشن</a></li>
+                            <li><a href="#">ترسناک</a></li>
+                            <li><a href="#">حادثه ای</a></li>
+                            <li><a href="#">رزمی</a></li>
+                            <li><a href="#">تاریخی</a></li>
+                            <li><a href="#" class="view-all-videos"> همه فیلم های ایرانی <svg class="arrow-left-icon"
+                                        xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                                        height="24px" viewBox="0 0 24 24" width="24px" fill="#f9f9f9">
+                                        <rect fill="none" height="24" width="24" />
+                                        <path d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z" />
+                                    </svg><i></i></a></li>
+                        </ul>
+                    </div>
+                    <li class="navlinks-title"><a href="#"> انیمیشن</a></li>
+                    <li class="navlinks-title"><a href="#"> دوبله فارسی</a></li>
+                    <li class="navlinks-title"><a href="#"> سریال</a></li>
+                    <div class="menu-with-dropdown">
+                        <li class="navlinks-title"><a href="#"> بهترین ها <svg class="angle-bottom-menu-icon"
+                                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                    fill="#f9f9f9">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                </svg></a></li>
+                        <ul class="dropdown-desktop-menu">
+                            <li><a href="250-imdb.html">۲۵۰ فیلم برتر IMDB </a></li>
+                            <li><a href="collection.html">کالکشن</a></li>
+                            <li><a href="marvel.html">فیلم های Marvel</a></li>
+                            <li><a href="dc-movies.html">فیلم های DC</a></li>
+                            <li><a href="oscar.html"> اسکار</a></li>
+                            <li><a href="nostalgia.html">نوستالژی</a></li>
+                        </ul>
+                    </div>
+
+                    <li class="navlinks-title vip-btn"><a href="blog.html">نقد و بررسی فیلم</a></li>
+                </ul>
+                <!-- Desktop searchbox -->
+                <div class="desktop-searchbox">
+                    <button class="closeSearchBox">بستن</button>
+                    <form id="searchBoxForm" class="desktop-searchbox-form" method="GET" action="\">
+                        <input id="searchInput" autocomplete="off" type="search" placeholder="کلمه مورد نظر">
+                        <button><svg class="searchbox-icon" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+                                version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 98 98"
+                                style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                <g>
+                                    <style xmlns="http://www.w3.org/2000/svg" type="text/css">
+                                        .st0 {
+                                            fill: url(#SVGID_1_);
+                                        }
+                                    </style>
+                                    <linearGradient xmlns="http://www.w3.org/2000/svg" id="SVGID_1_"
+                                        gradientUnits="userSpaceOnUse" x1="49" y1="14.0999" x2="49" y2="87.9001">
+                                        <stop stop-opacity="1" stop-color="#fa697c" offset="0" />
+                                        <stop stop-opacity="1" stop-color="#fa9f6f" offset="1" />
+                                    </linearGradient>
+                                    <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                        d="M85,82.8L69.6,67.3c4.7-5.6,7.5-12.9,7.5-20.7c0-17.9-14.6-32.5-32.5-32.5S12.1,28.7,12.1,46.6  s14.6,32.5,32.5,32.5c7.9,0,15.1-2.8,20.7-7.5L80.8,87c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9C86.2,85.9,86.2,83.9,85,82.8z   M18.1,46.6C18.1,32,30,20.1,44.6,20.1c14.6,0,26.5,11.9,26.5,26.5c0,14.6-11.9,26.5-26.5,26.5C30,73.1,18.1,61.2,18.1,46.6z"
+                                        fill="#000000" data-original="#000000" style="fill: auto;"> />
+                                </g>
+                            </svg>
+                            <!-- Clear search icon -->
+                            <div class="cancelSearchIcon"></div>
+                        </button>
+                    </form>
+                </div>
+
+                <button class="MobileSearchbox-icon-Container"><svg class="Mobile-searchbox-icon"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0"
+                        viewBox="0 0 98 98" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                        <g>
+                            <style xmlns="http://www.w3.org/2000/svg" type="text/css">
+                                .st0 {
+                                    fill: url(#SVGID_1_);
+                                }
+                            </style>
+                            <linearGradient xmlns="http://www.w3.org/2000/svg" id="SVGID_1_"
+                                gradientUnits="userSpaceOnUse" x1="49" y1="14.0999" x2="49" y2="87.9001">
+                                <stop stop-opacity="1" stop-color="#fa697c" offset="0" />
+                                <stop stop-opacity="1" stop-color="#fa9f6f" offset="1" />
+                            </linearGradient>
+                            <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                d="M85,82.8L69.6,67.3c4.7-5.6,7.5-12.9,7.5-20.7c0-17.9-14.6-32.5-32.5-32.5S12.1,28.7,12.1,46.6  s14.6,32.5,32.5,32.5c7.9,0,15.1-2.8,20.7-7.5L80.8,87c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9C86.2,85.9,86.2,83.9,85,82.8z   M18.1,46.6C18.1,32,30,20.1,44.6,20.1c14.6,0,26.5,11.9,26.5,26.5c0,14.6-11.9,26.5-26.5,26.5C30,73.1,18.1,61.2,18.1,46.6z"
+                                fill="#000000" data-original="#000000" style="fill: auto;"> />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- Header end -->
+    <!-- ---------- -->
+    <!-- ---------- -->
+    <!-- ---------- -->
+
+    <!-- blog post section start -->
+    <main id="index-blog-post" class="blog-post-main-container">
+        <section class="blog-post-container container">
+
+            <!-- blog post btns -->
+            <div class="blog__post__btn__container">
+                <ul class="blog__post__btns">
+                    <li>
+                        <a href="#writer-info"><i class="fa fa-user"></i>
+                            <span class="sticky-buttons-tooltip">درباره نویسنده</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#share-post-navigation"><i class="fas fa-share-alt"></i>
+                            <span class="sticky-buttons-tooltip">اشتراک گذاری</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="blog-post-related-link" href="#blog-post-related"><i class="fas fa-ellipsis-h"></i>
+                            <span class="sticky-buttons-tooltip">مطالب مرتبط</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="blog__post__main__section">
+                <div class="blog__post__info">
+                    <div class="blog__post__img">
+                        <img loading="lazy" src="assest/images/thumbmails/venom-thumbnail.jpg" alt="ونوم">
+                    </div>
+                    <h1 class="title blog__post__title">نقد و بررسی فیلم ونوم بگذارید کارنیج بیاید</h1>
+                    <div class="blog__post__infography">
+                        <li><i class="fa fa-user"></i> <span>آریا ایرانمنش</span></li>
+                        <li><i class="fa fa-pen"></i> <span>۲۸ مهر ۱۴۰۰</span></li>
+                        <li><i class="fas fa-clock"></i> <span>۱۸:۴۳</span></li>
+                    </div>
+
+                    <div class="article__body">
+                        <p>
+                            فیلم ونوم: بگذارید کارنیج بیاید (Venom: Let There Be Carnage)، با کارگردانی اندی سرکیس اخیرا
+                            اکران شده است و نتوانسته امتیازات خیلی بالایی از منتقدان دریافت کند.
+                        </p>
+                        <p>
+                            فیلم Venom: Let There Be Carnage یا در زبان فارسی «ونوم: بگذارید کارنیج بیاید» یکی از
+                            جدیدترین آثار اکشن، علمی تخیلی، دلهره‌آور، ترسناک و کمدی شرکت کلمبیا پیکچرز (Columbia
+                            Pictures) است که به‌دست اندی سرکیس، بازیگر، تهیه‌کننده و کارگردان بااستعداد و محبوب ساخته
+                            شده است. از جمله آثار این هنرمند می‌توان به فیلم Mowgli: Legend of the Jungle (موگلی: افسانه
+                            جنگل)، فیلم Breathe (نفس بکش)، فیلم SAS: Red Notice (گروه ضربت: اعلان قرمز)، فیلم Long Shot
+                            (تیری در تاریکی)، فیلم Black Panther (پلنگ سیاه) و فیلم Avengers: Age of Ultron (انتقام
+                            جویان: عصر اولتران) و غیره اشاره کرد. در فیلم ونوم: بگذارید کارنیج بیاید، بازیگران هنرمند و
+                            بااستعدادی مانند تام هاردی در نقش ادی براک/ونوم، میشل ویلیامز در نقش ان وینگ، نائومی هریس در
+                            نقش فرانسیس باریسون/شریک، رید اسکات در نقش دن لوئیس، استیفن گراهام در نقش مالیگان و وودی
+                            هارلسون در نقش کلیتس کسیدی/کارنیج و غیره حضور داشتند و به ایفای نقش پرداخته‌اند.
+                        </p>
+                        <p>
+                            فیلم ونوم: بگذارید کارنیج بیاید در تاریخ ۱۴ سپتامبر ۲۰۲۱ (۲۳ شهریور ۱۴۰۰) در سینماهای شهر
+                            لندن، برای اولین‌بار نمایش داده شد. سازندگان این اثر در نظر داشتند که ونوم: بگذارید کارنیج
+                            بیاید را در تاریخ ۱ اکتبر (۹ مهر) به‌صورت عمومی در سینماهای ایالات متحده نمایش دهند. تا به
+                            این لحظه این اثر اکشن امتیاز ۴۷ را از بین ۳۷ بررسی فیلم و سریال که در سایت متاکریتیک قرار
+                            گرفته، به‌دست آورده است. نگارش فیلمنامه این اثر برعهده کلی مارسل بوده است. این هنرمندان
+                            فیلمنامه‌ی خود را براساس داستانی که خود کلی مارسل و تام هاردی مطرح کرده بودند، نوشتند؛
+                            داستانی که براساس دنیای ونوم از دنیای مارول کامیکس نوشته شده بود. از طرف دیگر هم آوی آراد،
+                            مت تولماچ، ایمی پاسکال، کلی مارسل، تام هاردی و هاچ پارکر نقش تهیه‌کنندگان این اثر را داشتند.
+                            این فیلم به‌طور کلی بررسی‌های متنوعی را از منتقدان گرفت که اکثر آن‌ها هم در بخش روبه‌بالا و
+                            متوسط قرار دارند.
+                        </p>
+
+                        <div class="article__img">
+                            <button class="close-img-zoom"></button>
+                            <img loading="lazy" data-image-zoom="true" src="assest/blog-images/venom-blog.jpg"
+                                alt="ونوم">
+                        </div>
+
+                        <div class="quote">
+                            <blockquote data-blockquote>
+                                <i class="fa fa-quote-right"></i>
+                            </blockquote>
+
+                            <p>
+                                فیلم ونوم: بگذارید کارنیج بیاید، یک داستان ابرقهرمانانه جسور و سریع دارد؛ برخلاف دیگر
+                                آثار
+                                بزرگ هالیوودی که در این ژانر ساخته شدند. با اینکه مسائل زیادی را در این فیلم یک ساعت و
+                                نیمِ
+                                قرار داده، اما اصلا به نظر نمی‌رسد که باید طولانی‌تر می‌شد. فقط اینطور حس می‌شود که ما
+                                فیلم‌های بیشتری مانند این را نیاز داریم.
+                            </p>
+                        </div>
+
+                        <p>
+                            ونوم : بگذارید کارنیج بیاید، قرار بود در ابتدا در ماه اکتبر سال ۲۰۲۰ به نمایش در بیاید. اما
+                            به
+                            خاطر شرایط سختی که بیماری کرونا در سرتاسر دنیا به وجود آورده بود، یک سال به تاخیر خورد. این
+                            اثر نظرات مختلفی از منتقدان دریافت کرد که هرکدام به نقاط متنوع آن اشاره می‌کردند. اما چیزی
+                            که در میان آنها مشترک بود، این بود که اکثرا معتقد بودند که این اثر نسبت به قسمت اول
+                            پیشرفت‌های زیادی داشته است. از طرف دیگر هم ۱۴۵ منتقد سایت راتن تومیتوز هم که این اثر
+                            دلهره‌آور را تماشا کرده بودند، نظرات مختلف و متفاوتی درباره آن داشتند و امتیاز کلی ۶۰ درصد
+                            را برای آن ثبت کرده‌اند. از آن‌جا که اخیرا فیلم Venom: Let There Be Carnage در سینماهای لندن
+                            و ایالات متحده نمایش داده شده است، سایت‌های بین‌المللی معتبر و محبوب در زمینه بررسی فیلم و
+                            سریال، نظرات و امتیاز‌های خود را برای این فیلم منتشر کرده‌اند. در ادامه مروری بر بررسی فیلم
+                            Venom: Let There Be Carnage از دید سایت‌های معتبر دنیا خواهیم داشت؛ اما پیش از آن می‌توانید
+                            خلاصه‌ی داستان این فیلم را که منتشر شده هم بخوانید:
+                        </p>
+
+                        <div class="article__img">
+                            <button class="close-img-zoom"></button>
+                            <img loading="lazy" data-image-zoom="true" src="assest/blog-images/venom-blog2.webp"
+                                alt="ونوم">
+                        </div>
+
+                        <div class="quote">
+                            <blockquote data-blockquote>
+                                <i class="fa fa-quote-right"></i>
+                            </blockquote>
+
+                            <p>
+                                ادی براک همچنان با شرایطی که دارد درگیر است و نتوانسته به‌خوبی با موجود تغییرشکل‌دهنده‌ی
+                                فرازمینی‌ای به اسم ونوم همزیستی کند و کنار بیاید. وقتی یک قاتل سریالی دیوانه‌ای به اسم
+                                کلیتس کسیدی هم میزبان یک سیمبیوت بیگانه می‌شود، براک و ونوم باید اختلافات خود را کنار
+                                بگذارند تا بتوانند این سلطنت ترس و وحشت را متوقف کنند.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- article tags and share buttons footer -->
+                    <div class="article__tag__share">
+                        <div class="article__tags">
+                            <p>برچسب ها :</p>
+                            <ul class="blog__tags__container">
+                                <li><a href="#">ونوم</a></li>
+                                <li><a href="#">۲۰۲۱</a></li>
+                                <li><a href="#">نقد و بررسی</a></li>
+                            </ul>
+                        </div>
+
+                        <div id="share-post-navigation" class="article__share">
+                            <ul data-share-tooltip="اشتراک گذاری پست" class="article__share__nav">
+                                <li>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-telegram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- article tags and share buttons footer -->
+                </div>
+
+                <!-- writer info section -->
+                <div id="writer-info" class="writer__info">
+                    <div class="write__info__box">
+                        <div class="writer__img__container">
+                            <span data-writer-score="نویسنده برتر هفته" class="best__writer__badge"><i>i</i></span>
+                            <img loading="lazy" src="assest/blog-images/writer.jpg" alt="آریا ایرانمنش">
+                        </div>
+                        <div class="writer__text">
+                            <h1 class="title">آریا ایرانمنش</h1>
+                            <p>همه‌ی ما نوشتن رو یاد میگیریم ولی فقط بعضی از ما عاشقش می‌شیم و من عاشق نوشتن شدم. من
+                                عاشق
+                                سفرم و با خوندن و نوشتن هر کلمه می‌تونم تو خیالم به هر جایی که می‌خوام سفر کنم حتی به
+                                تمام
+                                ناشناخته‌ها… همیشه کشف دنیاهای جدید برام جذاب بوده.</p>
+                        </div>
+                    </div>
+
+                    <div class="writer__post__links">
+                        <a href="#" title="همه مطالب نویسنده">همه مطالب نویسنده</a>
+                    </div>
+                </div>
+                <!-- writer info section end-->
+
+                <!-- previus post and next post section -->
+                <div class="previus__post__next__post">
+                    <a href="blog-post2.html" class="previus__post">
+
+                        <div class="previus__post__icon">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+
+                        <div class="previus__post__sec">
+                            <h3 class="title">پست قبلی</h3>
+                            <p>چگونه سریال بازی مرکب انقدر معروف شده ؟</p>
+                        </div>
+
+                    </a>
+
+                    <a href="blog-post.html" class="next__post">
+
+                        <div class="next__post__sec">
+                            <h3 class="title">پست بعدی</h3>
+                            <p>تاریخ اکران دقیق فیلم بتمن ۲۰۲۱</p>
+                        </div>
+
+                        <div class="next__post__icon">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+
+                    </a>
+                </div>
+                <!-- previus post and next post section end-->
+
+                <!-- blog comment section start -->
+                <div class="blog__comments__container comments__container__class">
+                    <!-- post comments container and form -->
+                    <div class="comments__inner__cr">
+                        <div class="cm__title__btn">
+                            <h1 id="comments__length" class="comments__length"><i class="fas fa-comment-dots"></i> ۳
+                                دیدگاه</h1>
+                            <button class="add__comment__btn green-badge " id="addComment"><i class="fa fa-plus"></i>
+                                <span>افزودن
+                                    دیدگاه</span></button>
+                        </div>
+
+                        <!-- post comment section -->
+                        <form id="post__cm__form" action="/" class="comment__below__form">
+
+                            <!-- post comment animation after submit -->
+                            <div class="PostComment__Animation">
+                                <div class="loader-parent postcm__animation">
+                                    <div class="loader-bg">
+                                        <div class="mid-circle"></div>
+                                        <div class="loader-circle-2"></div>
+                                        <div class="loader-circle-2"></div>
+                                        <div class="loader-circle-2"></div>
+                                        <div class="loader-circle-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <label class="add__comment__label" for="add-comment-input">دیدگاهتان را بنویسید</label>
+                            <div class="comment__form__control">
+                                <textarea spellcheck="false" class="add_cm__input" name="add-comment-input"
+                                    id="add-comment-input" cols="30" rows="3" placeholder="این فیلم چه طور بود؟"
+                                    required="required"></textarea>
+                            </div>
+
+                            <div class="auther__email__btn">
+                                <div class="comment__form__control">
+                                    <input id="auther" type="text" name="autherName" placeholder="نام شما"
+                                        maxlength="100" minlength="4" required="required">
+                                    <span id="UserNameErr"></span>
+                                </div>
+
+                                <div class="comment__form__control">
+                                    <input id="email" type="email" name="autherEmail" placeholder="ایمیل"
+                                        maxlength="100" minlength="4" required="required">
+                                    <span id="UserEmailErr"></span>
+                                </div>
+
+                                <div class="comment__form__control">
+                                    <input id="submit__comment" type="submit" name="submitbtn" value="فرستادن دیدگاه">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <!-- all comments container -->
+                    <div class="allComments__cr">
+                        <div class="comment__cr">
+                            <div class="WrapCmDiv">
+                                <div class="DateNameIcon__cr"><i class="fas fa-user Comment__user__icon"></i>
+                                    <p class="Comment__user__name">سپهر</p><span
+                                        class="Comment__date__cr">۱۴۰۰/۷/۲۴</span>
+                                </div>
+                                <div class="LikeDislike__cr">
+                                    <div title="پسندیدم"><i class="fa fa-thumbs-up"></i><span>0</span></div>
+                                    <div title="نپسندیدم"><i class="fa fa-thumbs-down"></i><span>0</span></div>
+                                </div>
+                            </div>
+                            <div class="CommentTextCr">
+                                <p>مارو تو کف گذاشتن چرا اکران نمیشه پس</p>
+                            </div>
+                        </div>
+
+                        <div class="comment__cr">
+                            <div class="WrapCmDiv">
+                                <div class="DateNameIcon__cr"><i class="fas fa-user Comment__user__icon"></i>
+                                    <p class="Comment__user__name">سارا</p><span
+                                        class="Comment__date__cr">۱۴۰۰/۷/۲۴</span>
+                                </div>
+                                <div class="LikeDislike__cr">
+                                    <div title="پسندیدم"><i class="fa fa-thumbs-up"></i><span>0</span></div>
+                                    <div title="نپسندیدم"><i class="fa fa-thumbs-down"></i><span>0</span></div>
+                                </div>
+                            </div>
+                            <div class="CommentTextCr">
+                                <p>ممنون بابت اطلاعات مفیدی که بهمون دادین</p>
+                            </div>
+                        </div>
+
+                        <div class="comment__cr">
+                            <div class="WrapCmDiv">
+                                <div class="DateNameIcon__cr"><i class="fas fa-user Comment__user__icon"></i>
+                                    <p class="Comment__user__name">ادمین</p><span
+                                        class="Comment__date__cr">۱۴۰۰/۷/۲۴</span>
+                                </div>
+                                <div class="LikeDislike__cr">
+                                    <div title="پسندیدم"><i class="fa fa-thumbs-up"></i><span>0</span></div>
+                                    <div title="نپسندیدم"><i class="fa fa-thumbs-down"></i><span>0</span></div>
+                                </div>
+                            </div>
+                            <div class="CommentTextCr">
+                                <p>خواهش میکنم خوشحالم که مفید بوده براتون.</p>
+                            </div>
+                            <p class="replay__cm">پاسخ به سارا</p>
+                        </div>
+
+                        <!-- all comments container -->
+                        <div id="allComments"></div>
+                    </div>
+                </div>
+                <!-- blog comment section end -->
+            </div>
+
+            <!-- blog aside start -->
+            <div class="blog__post__aside">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 24 24"
+                    style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                    <g>
+                        <g xmlns="http://www.w3.org/2000/svg" id="Layer_5" data-name="Layer 5">
+                            <path
+                                d="m21.0127 4.0166a.9944.9944 0 0 0 -1.166.8013 7.5315 7.5315 0 0 1 -2.4922 4.4184 7.4464 7.4464 0 0 1 -3.5322 1.64 1 1 0 0 0 .1767 1.9837.971.971 0 0 0 .1787-.0161 9.5477 9.5477 0 0 0 4.4688-2.0811 9.5023 9.5023 0 0 0 3.167-5.5806 1 1 0 0 0 -.8008-1.1656z"
+                                fill="#6898f8" data-original="#5cfaa9" class="path1"></path>
+                            <path
+                                d="m9.95 10.8613a8.3123 8.3123 0 0 0 -8.0889 8.09 1.0009 1.0009 0 0 0 .95 1.0478l.05.001a1.0005 1.0005 0 0 0 .9981-.9512 6.3139 6.3139 0 0 1 6.19-6.19 1 1 0 0 0 .9492-1.0479.9734.9734 0 0 0 -1.0484-.9497z"
+                                fill="#6898f8" data-original="#5cfaa9" class="path2"></path>
+                            <g fill="#212529">
+                                <path
+                                    d="m13 9h-2a2.0023 2.0023 0 0 0 -2 2v2a2.0023 2.0023 0 0 0 2 2h2a2.0023 2.0023 0 0 0 2-2v-2a2.0023 2.0023 0 0 0 -2-2zm-2 4v-2h2l.001 2z"
+                                    fill="#1c1c22" data-original="#212529" class="path3"></path>
+                                <path
+                                    d="m22 0h-2a2.0023 2.0023 0 0 0 -2 2v2a2.0023 2.0023 0 0 0 2 2h2a2.0023 2.0023 0 0 0 2-2v-2a2.0023 2.0023 0 0 0 -2-2zm-2 4v-2h2l.001 2z"
+                                    fill="#1c1c22" data-original="#212529" class="path4"></path>
+                                <path
+                                    d="m4 18h-2a2.0023 2.0023 0 0 0 -2 2v2a2.0023 2.0023 0 0 0 2 2h2a2.0023 2.0023 0 0 0 2-2v-2a2.0023 2.0023 0 0 0 -2-2zm-2 4v-2h2l.001 2z"
+                                    fill="#1c1c22" data-original="#212529" class="path5"></path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+
+                <h1 class="title">جدیدترین مطالب</h1>
+
+                <div class="new__post__container">
+                    <a href="#" class="new__post__link">
+                        <div data-image-hover-effect class="new__post__img">
+                            <img loading="lazy" src="assest/blog-images/peaky-blinders.jpg" alt="سریال پیکی بلایندرز">
+                        </div>
+                        <div class="news__post__text__cr">
+                            <p>فصل جدید پیکی بلایندرز با حضور تام هاردی</p>
+                            <time>۳۰ مهر ۱۴۰۰</time>
+                            <p href="#">مشاهده بیشتر</p>
+                        </div>
+                    </a>
+                </div>
+
+                <h1 id="blog-post-related" class="title">مطالب مرتبط </h1>
+
+                <!-- related article post -->
+                <div class="related__posts">
+                    <div data-image-hover-effect class="post-related-img">
+                        <a href="#" class="related__post__img">
+                            <img loading="lazy" src="assest/blog-images/kate.jpg" alt="فیلم kate">
+                        </a>
+                    </div>
+
+                    <div class="related__post__info">
+                        <a href="#">محبوب ترین فیلم نت فلیکس</a>
+                        <div class="related__post__date__time">
+                            <time>۳۰ مهر ۱۴۰۰</time>
+                            <time>۶:۴۳ ب.ظ</time>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="related__posts">
+                    <div data-image-hover-effect class="post-related-img">
+                        <a href="#" class="related__post__img">
+                            <img loading="lazy" src="assest/blog-images/spider-man.jpg" alt="مرد عنکبوتی">
+                        </a>
+                    </div>
+
+                    <div class="related__post__info">
+                        <a href="#">فیلم جدید مرد عنکبوتی</a>
+                        <div class="related__post__date__time">
+                            <time>۳۰ مهر ۱۴۰۰</time>
+                            <time>۶:۴۳ ب.ظ</time>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="related__posts">
+                    <div data-image-hover-effect class="post-related-img">
+                        <a href="#" class="related__post__img">
+                            <img loading="lazy" src="assest/blog-images/squid-game.jpg" alt="بازی مرکب">
+                        </a>
+                    </div>
+
+                    <div class="related__post__info">
+                        <a href="#">سریال بازی مرکب</a>
+                        <div class="related__post__date__time">
+                            <time>۳۰ مهر ۱۴۰۰</time>
+                            <time>۶:۴۳ ب.ظ</time>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="related__posts">
+                    <div data-image-hover-effect class="post-related-img">
+                        <a href="#" class="related__post__img">
+                            <img loading="lazy" src="assest/blog-images/old-guard.jpeg" alt="نگهبانان قدیمی">
+                        </a>
+                    </div>
+
+                    <div class="related__post__info">
+                        <a href="#">نقد و بررسی فیلم نگهبانان قدیمی</a>
+                        <div class="related__post__date__time">
+                            <time>۳۰ مهر ۱۴۰۰</time>
+                            <time>۶:۴۳ ب.ظ</time>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="related__posts">
+                    <div data-image-hover-effect class="post-related-img">
+                        <a href="#" class="related__post__img">
+                            <img loading="lazy" src="assest/blog-images/tenet.jpg" alt="فیلم تنت">
+                        </a>
+                    </div>
+
+                    <div class="related__post__info">
+                        <a href="#">امتیاز نهایی فیلم تنت در imdb</a>
+                        <div class="related__post__date__time">
+                            <time>۳۰ مهر ۱۴۰۰</time>
+                            <time>۶:۴۳ ب.ظ</time>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="related__posts">
+                    <div data-image-hover-effect class="post-related-img">
+                        <a href="#" class="related__post__img">
+                            <img loading="lazy" src="assest/images/thumbmails/dead-army.jpg" alt="فیلم ارتش مردگان">
+                        </a>
+                    </div>
+
+                    <div class="related__post__info">
+                        <a href="#">نقد و بررسی فیلم ارتش مردگان</a>
+                        <div class="related__post__date__time">
+                            <time>۳۰ مهر ۱۴۰۰</time>
+                            <time>۶:۴۳ ب.ظ</time>
+                        </div>
+                    </div>
+                </div>
+                <!-- post related article end -->
+            </div>
+        </section>
+    </main>
+
+    <!-- footer start here -->
+    <footer id="index-footer" class="footer blog-footer">
+
+        <!-- main footer section start here -->
+        <section class="footer-bg">
+            <div class="blog-footer-nav footer-second-nav container">
+                <div class="form-control">
+                    <p>از اخبار سینما با خبر شوید.</p>
+                    <form id="newsletter-inp" name="newsletter-inp" action="/">
+                        <button class="newsletter-btn"></button>
+                        <input placeholder="ایمیل" type="email" name="newsletter" id="newsletter" autocomplete="on"
+                            spellcheck="false">
+                        <div class="newsletter-err">
+                            <p></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="socials">
+                    <ul>
+                        <div class="socials-cr">
+                            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                        </div>
+                        <div class="socials-cr">
+                            <a href="#"><i class="fab fa-twitch"></i></a>
+                        </div>
+                        <div class="socials-cr">
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="socials-cr">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copy-right">
+                <p>استفاده از مطالب وبلاگ <span>فلیکس مووی</span> برای مقاصد غیرتجاری با ذکر نام وبلاگ <span> فلیکس
+                        مووی</span> و لینک منبع ایرادی ندارد.</p>
+            </div>
+        </section>
+        <!-- main footer section end-->
+    </footer>
+    <!-- footer end -->
+    <!-- ---------- -->
+    <!-- ---------- -->
+
+    <!-- Script Include -->
+    <script src="js/app.js"></script>
+    <script src="js/comments.js"></script>
+    <script src="js/blog.js"></script>
+    <!-- Scripts Include end-->
+</body>
+
+</html>
