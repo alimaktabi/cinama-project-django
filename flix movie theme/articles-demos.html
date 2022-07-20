@@ -1,0 +1,2194 @@
+<!-- Project Name : FlixMovie -->
+<!-- Version : 1.0 -->
+<!-- Created Data : 2021/09/16 | 1400/06/25 -->
+<!-- Created By : Mahdi Illusion -->
+<!-- All rights reserved -->
+
+<html dir="rtl" lang="fa-IR" locale="IRAN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="keywords" content="MovieFlix Movie Theme">
+    <meta name="locale" content="fa_IR">
+    <meta name="url" content="https://FlixMovie.bmdec.ir">
+    <meta name="type" content="movie theme">
+    <meta name="author" content="Admin">
+    <meta name="engineer" content="Mahdi Rostami">
+    <meta name="owner" content="Admin">
+    <meta name="description" content="فلیکس مووی قالب اچ دی ام ال با اپشن های بی نظیر و کاملا بهینه">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#6898f8">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f0f0f">
+    <!-- description -->
+    <title>فلیکس مووی - دمو پست ها</title> <!-- Website Title -->
+    <link rel="icon" href="assest/logo/film.ico"> <!-- Favicon -->
+    <link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css"> <!-- Css Include -->
+    <!-- Fontawesome -->
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ---------------- -->
+    <!-- Loader animation -->
+    <script>
+        window.addEventListener("load", function () {
+            document.querySelector('.loader-parent').classList.add('loaded');
+            setTimeout(function () {
+                document.querySelector('.loader-parent').remove();
+            }, 3000)
+        });
+    </script>
+
+    <!-- loader 3 -->
+    <div class="loader-parent loader3">
+        <div class="loader-film-strip">
+            <div class="loader-strip-inner">
+                <div class="loader-film-strip-inner"></div>
+                <div class="loader-film-strip-inner inner-2"></div>
+                <div class="loader-film-strip-inner inner-3"></div>
+                <div class="loader-film-strip-inner inner-4"></div>
+            </div>
+        </div>
+        <p class="loader-text">در حال بارگزاری</p>
+    </div>
+    <!-- Loader animation end -->
+    <!-- --------------- -->
+
+    <!-- Black mask -->
+    <div class="mask"></div>
+
+    <!-- Mobile Navigation Menu -->
+    <nav class="mobile-navbar">
+        <div class="mobile-logo-container">
+            <a href="index.html">
+                <img loading="lazy" src="assest/logo/mobile-navigation-icon.svg" alt="">
+            </a>
+        </div>
+
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="true">لینک دمو ها</li>
+            <ul class="mobile-menu-collapse">
+                <li class="mobile-link-item"><a href="index.html">صفحه اصلی</a></li>
+                <li class="mobile-link-item"><a href="articles-demos.html">صفحه داخلی پست ها</a></li>
+                <li class="mobile-link-item"><a href="matrix.html">صفحه در حال اکران</a></li>
+                <li class="mobile-link-item"><a href="venom.html">صفحه در حال اکران ۲</a></li>
+                <li class="mobile-link-item"><a href="spiderman.html">صفحه در حال اکران ۳</a></li>
+                <li class="mobile-link-item"><a href="meydanesorkh.html">سریال میدان سرخ</a></li>
+                <li class="mobile-link-item"><a href="contactus.html">صفحه تماس با ما</a></li>
+                <li class="mobile-link-item"><a href="blog.html">وبلاگ</a></li>
+                <li class="mobile-link-item"><a href="actors/KeanuReeves.html">صفحه بازیگران</a></li>
+            </ul>
+
+            <ul class="mobile-navigation-items">
+                <li class="mobile-menu-title" data-dropdown="false"><a href="loaders.html">لودر ها</a> </li>
+            </ul>
+
+            <li class="mobile-menu-title" data-dropdown="true">فیلم خارجی</li>
+            <ul class="mobile-menu-collapse">
+                <li class="mobile-link-item"><a href="#">اکشن</a></li>
+                <li class="mobile-link-item"><a href="#">تخیلی</a></li>
+                <li class="mobile-link-item"><a href="#">علمی</a></li>
+                <li class="mobile-link-item"><a href="#">کمدی</a></li>
+                <li class="mobile-link-item"><a href="#">هندی</a></li>
+                <li class="mobile-link-item"><a href="#">ترسناک</a></li>
+                <li class="mobile-link-item"><a href="#">درام</a></li>
+                <li class="mobile-link-item"><a href="#">تاریخی</a></li>
+                <li class="view-all-videos-mobile"><a href="#" class="view-all-videos "> همه فیلم های خارجی
+                        <svg class="arrow-left-icon" xmlns="http://www.w3.org/2000/svg"
+                            enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"
+                            fill="#f9f9f9">
+                            <rect fill="none" height="24" width="24" />
+                            <path d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z" />
+                        </svg><i></i></a></li>
+            </ul>
+        </ul>
+
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="true">فیلم ایرانی </li>
+            <ul class="mobile-menu-collapse">
+                <li class="mobile-link-item"><a href="#">اجتماعی</a></li>
+                <li class="mobile-link-item"><a href="#">کمدی</a></li>
+                <li class="mobile-link-item"><a href="#">ترسناک</a></li>
+                <li class="mobile-link-item"><a href="#">خانوادگی</a></li>
+                <li class="mobile-link-item"><a href="#">رزمی</a></li>
+                <li class="mobile-link-item"><a href="#">تاریخی</a></li>
+                <li class="view-all-videos-mobile"><a href="#" class="view-all-videos "> همه فیلم های ایرانی
+                        <svg class="arrow-left-icon" xmlns="http://www.w3.org/2000/svg"
+                            enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"
+                            fill="#f9f9f9">
+                            <rect fill="none" height="24" width="24" />
+                            <path d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z" />
+                        </svg><i></i></a></li>
+            </ul>
+        </ul>
+
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">انیمیشن</a> </li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">سریال خارجی</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">دوبله فارسی</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">انیمه</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">سریال کره ای</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="true">بهترین ها </li>
+            <ul class="mobile-menu-collapse">
+                <li class="mobile-link-item"><a href="250-imdb.html">۲۵۰ فیلم برتر IMDB</a></li>
+                <li class="mobile-link-item"><a href="collection.html">کالکشن</a></li>
+                <li class="mobile-link-item"><a href="marvel.html">فیلم های Marvel</a></li>
+                <li class="mobile-link-item"><a href="dc-movies.html">فیلم های DC</a></li>
+                <li class="mobile-link-item"><a href="oscar.html">اسکار</a></li>
+                <li class="mobile-link-item"><a href="nostalgia.html">نوستالژی</a></li>
+            </ul>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="contactus.html">ارتباط با ما</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="blog.html">نقد و بررسی فیلم</a></li>
+        </ul>
+    </nav>
+    <!-- Mobile Navigation End-->
+    <!-- -------------------- -->
+    <!-- -------------------- -->
+    <!-- -------------------- -->
+
+    <!-- Header -->
+    <header class="header">
+        <!-- Navigation bar on header -->
+        <nav class="desktop-navbar" role="navigation" aria-label="navigation">
+
+            <div class="container desktop-navbar-container">
+
+                <!-- Mobile Navbar -->
+                <div class="mobile-menu-icon">
+                    <svg role="button" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24"
+                        width="24px">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                    </svg>
+                </div>
+
+                <!-- Desktop and mobile logo -->
+                <div class="desktop-logo-container">
+                    <a href="index.html">
+                        <svg class="desktop-logo" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+                            version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512"
+                            style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <linearGradient xmlns="http://www.w3.org/2000/svg" id="SVGID_1_"
+                                    gradientUnits="userSpaceOnUse" x1="256" x2="256" y1="496" y2="16">
+                                    <stop stop-opacity="1" stop-color="#fa697c" offset="0" />
+                                    <stop stop-opacity="1" stop-color="#fa9f6f" offset="1" />
+                                </linearGradient>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path
+                                            d="m100 256c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm296 160h-360v40h360v40h40v-40h40v-40h-40zm-296-240c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0-80c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm312 0c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm40-80h-392c-33.084 0-60 26.916-60 60v240c0 33.084 26.916 60 60 60h392c33.084 0 60-26.916 60-60v-240c0-33.084-26.916-60-60-60zm20 300c0 11.028-8.972 20-20 20h-392c-11.028 0-20-8.972-20-20v-240c0-11.028 8.972-20 20-20h392c11.028 0 20 8.972 20 20zm-276-20 133.333-100-133.333-100zm40-120 26.667 20-26.667 20zm176 0c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0 80c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20z"
+                                            fill="url(#SVGID_1_)" data-original="url(#SVGID_1_)" style="fill: auto;"> />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation Items -->
+                <ul class="navigation-items">
+                    <!-- demo links -->
+                    <div class="menu-with-dropdown">
+                        <li class="navlinks-title"><a href="#">لینک دمو ها <svg class="angle-bottom-menu-icon"
+                                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                    fill="#f9f9f9">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                </svg></a></li>
+                        <ul class="dropdown-desktop-menu">
+                            <li><a href="index.html">صفحه اصلی</a></li>
+                            <li><a href="articles-demos.html">صفحه داخلی پست ها</a></li>
+                            <li><a href="matrix.html">صفحه در حال اکران</a></li>
+                            <li><a href="venom.html">صفحه در حال اکران ۲</a></li>
+                            <li><a href="spiderman.html">صفحه در حال اکران ۳</a></li>
+                            <li><a href="meydanesorkh.html">سریال میدان سرخ</a></li>
+                            <li><a href="contactus.html">صفحه تماس با ما</a></li>
+                            <li><a href="blog.html">وبلاگ</a></li>
+                            <li><a href="actors/KeanuReeves.html">صفحه بازیگران</a></li>
+                        </ul>
+                    </div>
+                    <!-- demo links end -->
+
+                    <div class="menu-with-dropdown">
+                        <li class="navlinks-title"><a href="loaders.html">لودر ها<svg class="angle-bottom-menu-icon"
+                                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                    fill="#f9f9f9">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                </svg></a></li>
+                        <ul class="dropdown-desktop-menu">
+                            <li><a href="#">اکشن</a></li>
+                            <li><a href="#">تخیلی</a></li>
+                            <li><a href="#">علمی</a></li>
+                            <li><a href="#">کمدی</a></li>
+                            <li><a href="#">هندی</a></li>
+                            <li><a href="#">ترسناک</a></li>
+                            <li><a href="#">درام</a></li>
+                            <li><a href="#">تاریخی</a></li>
+                            <li><a href="#" class="view-all-videos"> همه فیلم های خارجی <svg class="arrow-left-icon"
+                                        xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                                        height="24px" viewBox="0 0 24 24" width="24px" fill="#f9f9f9">
+                                        <rect fill="none" height="24" width="24" />
+                                        <path d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z" />
+                                    </svg><i></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-with-dropdown">
+                        <li class="navlinks-title"><a href="#">فیلم ایرانی <svg class="angle-bottom-menu-icon"
+                                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                    fill="#f9f9f9">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                </svg></a></li>
+                        <ul class="dropdown-desktop-menu">
+                            <li><a href="#">اجتماعی</a></li>
+                            <li><a href="#">کمدی</a></li>
+                            <li><a href="#">خانوادگی</a></li>
+                            <li><a href="#">اکشن</a></li>
+                            <li><a href="#">ترسناک</a></li>
+                            <li><a href="#">حادثه ای</a></li>
+                            <li><a href="#">رزمی</a></li>
+                            <li><a href="#">تاریخی</a></li>
+                            <li><a href="#" class="view-all-videos"> همه فیلم های ایرانی <svg class="arrow-left-icon"
+                                        xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                                        height="24px" viewBox="0 0 24 24" width="24px" fill="#f9f9f9">
+                                        <rect fill="none" height="24" width="24" />
+                                        <path d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z" />
+                                    </svg><i></i></a></li>
+                        </ul>
+                    </div>
+                    <li class="navlinks-title"><a href="#"> انیمیشن</a></li>
+                    <li class="navlinks-title"><a href="#"> دوبله فارسی</a></li>
+                    <li class="navlinks-title"><a href="#"> سریال</a></li>
+                    <div class="menu-with-dropdown">
+                        <li class="navlinks-title"><a href="#"> بهترین ها <svg class="angle-bottom-menu-icon"
+                                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                    fill="#f9f9f9">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                </svg></a></li>
+                        <ul class="dropdown-desktop-menu">
+                            <li><a href="250-imdb.html">۲۵۰ فیلم برتر IMDB </a></li>
+                            <li><a href="collection.html">کالکشن</a></li>
+                            <li><a href="marvel.html">فیلم های Marvel</a></li>
+                            <li><a href="dc-movies.html">فیلم های DC</a></li>
+                            <li><a href="oscar.html"> اسکار</a></li>
+                            <li><a href="nostalgia.html">نوستالژی</a></li>
+                        </ul>
+                    </div>
+
+                    <li class="navlinks-title vip-btn"><a href="blog.html">نقد و بررسی فیلم</a></li>
+                </ul>
+                <!-- Desktop searchbox -->
+                <div class="desktop-searchbox">
+                    <button class="closeSearchBox">بستن</button>
+                    <form id="searchBoxForm" class="desktop-searchbox-form" method="GET" action="\">
+                        <input id="searchInput" autocomplete="off" type="search" placeholder="کلمه مورد نظر">
+                        <button><svg class="searchbox-icon" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+                                version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 98 98"
+                                style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                <g>
+                                    <style xmlns="http://www.w3.org/2000/svg" type="text/css">
+                                        .st0 {
+                                            fill: url(#SVGID_1_);
+                                        }
+                                    </style>
+                                    <linearGradient xmlns="http://www.w3.org/2000/svg" id="SVGID_1_"
+                                        gradientUnits="userSpaceOnUse" x1="49" y1="14.0999" x2="49" y2="87.9001">
+                                        <stop stop-opacity="1" stop-color="#fa697c" offset="0" />
+                                        <stop stop-opacity="1" stop-color="#fa9f6f" offset="1" />
+                                    </linearGradient>
+                                    <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                        d="M85,82.8L69.6,67.3c4.7-5.6,7.5-12.9,7.5-20.7c0-17.9-14.6-32.5-32.5-32.5S12.1,28.7,12.1,46.6  s14.6,32.5,32.5,32.5c7.9,0,15.1-2.8,20.7-7.5L80.8,87c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9C86.2,85.9,86.2,83.9,85,82.8z   M18.1,46.6C18.1,32,30,20.1,44.6,20.1c14.6,0,26.5,11.9,26.5,26.5c0,14.6-11.9,26.5-26.5,26.5C30,73.1,18.1,61.2,18.1,46.6z"
+                                        fill="#000000" data-original="#000000" style="fill: auto;"> />
+                                </g>
+                            </svg>
+                            <!-- Clear search icon -->
+                            <div class="cancelSearchIcon"></div>
+                        </button>
+                    </form>
+                </div>
+
+                <button class="MobileSearchbox-icon-Container"><svg class="Mobile-searchbox-icon"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0"
+                        viewBox="0 0 98 98" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                        <g>
+                            <style xmlns="http://www.w3.org/2000/svg" type="text/css">
+                                .st0 {
+                                    fill: url(#SVGID_1_);
+                                }
+                            </style>
+                            <linearGradient xmlns="http://www.w3.org/2000/svg" id="SVGID_1_"
+                                gradientUnits="userSpaceOnUse" x1="49" y1="14.0999" x2="49" y2="87.9001">
+                                <stop stop-opacity="1" stop-color="#fa697c" offset="0" />
+                                <stop stop-opacity="1" stop-color="#fa9f6f" offset="1" />
+                            </linearGradient>
+                            <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                d="M85,82.8L69.6,67.3c4.7-5.6,7.5-12.9,7.5-20.7c0-17.9-14.6-32.5-32.5-32.5S12.1,28.7,12.1,46.6  s14.6,32.5,32.5,32.5c7.9,0,15.1-2.8,20.7-7.5L80.8,87c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9C86.2,85.9,86.2,83.9,85,82.8z   M18.1,46.6C18.1,32,30,20.1,44.6,20.1c14.6,0,26.5,11.9,26.5,26.5c0,14.6-11.9,26.5-26.5,26.5C30,73.1,18.1,61.2,18.1,46.6z"
+                                fill="#000000" data-original="#000000" style="fill: auto;"> />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- Header end -->
+    <!-- ---------- -->
+    <!-- ---------- -->
+    <!-- ---------- -->
+
+    <!-- margin -->
+    <div class="margin"></div>
+
+    <!-- Main Body -->
+    <section class="main-body" id="index-main-body">
+        <article class="container articles-container">
+            <div class="articles-aside">
+                <!-- Posts Container -->
+                <section id="main-article-container" class="main-articles">
+                    <p class="p-title">مطالب مربوط به دمو پست ها</p>
+                    <div class="article-header">
+                        <p>مطالب مربوط به دمو پست ها</p>
+                        <button id="ArticlesSearchFilter"><i class="fas fa-search"></i> جستجوی پیشرفته</button>
+                    </div>
+                    <!-- Post container -->
+                    <article class="main-post">
+                        <div class="post-img-container">
+                            <a href="meydanesorkh.html" title="دانلود سریال میدان سرخ">
+                                <img loading="lazy" class="article-img"
+                                    src="assest/images/post images/Meydan-e-Sorkh-2-207x290.jpg"
+                                    alt="دانلود سریال میدان سرخ">
+                            </a>
+                        </div>
+                        <div class="post-info">
+                            <div class="post-title-container">
+                                <h1 class="post-info-title">
+                                    <a class="post-info-link" href="meydanesorkh.html" title="دانلود سریال میدان سرخ">
+                                        دانلود سریال میدان سرخ
+                                    </a>
+                                </h1>
+                                <span class="post-blue-markup"> <img loading="lazy" src="assest/images/icons/check.svg"
+                                        alt=""> قانونی
+                                </span>
+                            </div>
+                            <div class="post-meta">
+                                <span class="post-meta-tags"><i class="fa fa-tag"></i> <a href="#">اکشن</a> <span
+                                        class="tags-horzontal-line"></span> <a href="#">رازآلود</a></span>
+                                <span class="top-choices-like post-meta-like"><i class="fa fa-heart"></i> ۹۵%
+                                    رضایت</span>
+                            </div>
+
+                            <div class="actors-director-container">
+                                <div class="actors">
+                                    <span class="actors-title">بازیگران </span>
+                                    <a href="actors/alimosfa.html">علی مصفا,</a>
+                                    <a href="actors/amirhoseinarman.html">امیرحسین آرمان,</a>
+                                    <a href="actors/bahramafshari.html">بهرام افشاری</a>
+                                </div>
+                                <div class="director">
+                                    <span class="actors-title">کارگردان </span>
+                                    <a href="actors/ebrahimebrahmian.html">ابراهیم ابراهیمان</a>
+                                </div>
+                            </div>
+                            <div class="post-summary">
+                                <p class="post-summary-text">بعد از مفقود شدن کیف حاوی شمش و اطلاعات محرمانه ی گروهی
+                                    تبهکار
+                                    به سردستگی گروچف،
+                                    زندگی...
+                                </p>
+                            </div>
+                            <div class="post-time-country-score-btn-container">
+                                <div class="post-time-country-score">
+                                    <p><i class="far fa-calendar"></i> سال انتشار : ۱۴۰۰ </p>
+                                    <p><i class="fas fa-globe-europe"></i> کشور : ایران </p>
+                                </div>
+                                <div class="post-btn">
+                                    <button class="post-btn-con">
+                                        <a class="post-btn-link" href="meydanesorkh.html"><i class="fa fa-download"></i>
+                                            دانلود
+                                            سریال</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Post container end -->
+
+                    <!-- Post container -->
+                    <article class="main-post">
+                        <div class="post-img-container">
+                            <a href="animemorbati.html" title="دانلود انیمه موریارتی وطن پرست Moriarty the Patriot">
+                                <img loading="lazy" class="article-img"
+                                    src="assest/images/post images/Moriarty-the-Patriot-2021-207x290.jpg"
+                                    alt="دانلود انیمه موریارتی وطن پرست Moriarty the Patriot">
+                            </a>
+                        </div>
+                        <div class="post-info">
+                            <div class="post-title-container">
+                                <h1 class="post-info-title">
+                                    <a class="post-info-link" href="animemorbati.html"
+                                        title="دانلود انیمه موریارتی وطن پرست Moriarty the Patriot">
+                                        دانلود انیمه موریارتی وطن پرست Moriarty the Patriot
+                                    </a>
+                                </h1>
+                            </div>
+                            <div class="post-meta">
+                                <span class="post-meta-tags"><i class="fa fa-tag"></i> <a href="#">انیمه</a> <span
+                                        class="tags-horzontal-line"></span> <a href="#">تاریخی</a></span>
+                                <span class="top-choices-like post-meta-like"><i class="fa fa-heart"></i> ۸۵%
+                                    رضایت</span>
+                            </div>
+
+                            <div class="actors-director-container">
+                                <div class="actors">
+                                    <span class="actors-title">بازیگران </span>
+                                    <a href="actors/theodevaney.html">Theo Devaney</a>
+                                    <a href="#">Stephen Chatfield</a>
+                                    <a href="#">Ryan Colt Levy</a>
+                                </div>
+                            </div>
+                            <div class="post-summary">
+                                <p class="post-summary-text">در اواخر قرن نوزدهم، امپراتوری بریتانیا به قدرتی جهانی
+                                    تبدیل شده بود. به سبب طبقه بندی سختگیرانه...
+                                </p>
+                            </div>
+                            <div class="post-time-country-score-btn-container">
+                                <div class="post-time-country-score">
+                                    <p><i class="far fa-calendar"></i> سال انتشار : ۲۰۲۰ </p>
+                                    <p><i class="fas fa-globe-europe"></i> کشور : ژاپن </p>
+                                    <p><i class="fab fa-imdb"></i> امتیاز : ۸.۱ </p>
+                                </div>
+                                <div class="post-btn">
+                                    <button class="post-btn-con">
+                                        <a class="post-btn-link" href="animemorbati.html"><i class="fa fa-download"></i>
+                                            دانلود
+                                            انیمه</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Post container end -->
+
+                    <!-- Post container -->
+                    <article class="main-post">
+                        <div class="post-img-container">
+                            <a href="squidgame.html" title="دانلود سریال Squid Game بازی مرکب فصل اول">
+                                <img loading="lazy" class="article-img" src="assest/images/post images/مرکب.jpg"
+                                    alt="دانلود سریال Squid Game بازی مرکب فصل اول">
+                            </a>
+                        </div>
+                        <div class="post-info">
+                            <div class="post-title-container">
+                                <h1 class="post-info-title">
+                                    <a class="post-info-link" href="squidgame.html"
+                                        title="دانلود سریال Squid Game بازی مرکب فصل اول">
+                                        دانلود سریال Squid Game بازی مرکب فصل اول
+                                    </a>
+                                </h1>
+                            </div>
+                            <div class="post-meta">
+                                <span class="post-meta-tags"><i class="fa fa-tag"></i> <a href="#">اکشن</a> <span
+                                        class="tags-horzontal-line"></span> <a href="#">درام</a></span>
+                                <span class="top-choices-like post-meta-like"><i class="fa fa-heart"></i> ۹۷%
+                                    رضایت</span>
+                            </div>
+
+                            <div class="actors-director-container">
+                                <div class="actors">
+                                    <span class="actors-title">بازیگران </span>
+                                    <a href="actors/greg.html">Greg Chun</a>
+                                    <a href="#"> Paul Nakauchi</a>
+                                    <a href="#"> Stephen Fu</a>
+                                </div>
+                            </div>
+                            <div class="post-summary">
+                                <p class="post-summary-text">از این قرار است که صدها بازیکن که مشکلات مالی دارند، دعوتی
+                                    عجیب برای رقابت در بازی...
+                                </p>
+                            </div>
+                            <div class="post-time-country-score-btn-container">
+                                <div class="post-time-country-score">
+                                    <p><i class="far fa-calendar"></i> سال انتشار : ۲۰۲۱ </p>
+                                    <p><i class="fas fa-globe-europe"></i> کشور : کره جنوبی </p>
+                                    <p><i class="fab fa-imdb"></i> امتیاز : ۸.۳ </p>
+                                </div>
+                                <div class="post-btn">
+                                    <button class="post-btn-con">
+                                        <a class="post-btn-link" href="squidgame.html"><i class="fa fa-download"></i>
+                                            دانلود
+                                            سریال</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Post container end -->
+                </section>
+                <!-- Right aside section end-->
+                <!-- ---------------------- -->
+                <!-- ---------------------- -->
+                <!-- ---------------------- -->
+
+                <!-- Main Aside Container -->
+                <aside class="main-aside">
+                    <section class="aside-section">
+
+                        <!-- Serials btn -->
+                        <div class="updates-and-search-btn">
+                            <div class="aside-tab"></div>
+                            <nav class="tabs-container">
+                                <div class="updates-video">
+                                    <a href="javascript:void(0)">به روز شده ها</a>
+                                </div>
+                                <div class="filters-tab">
+                                    <a id="Search-Filter" href="javascript:void(0)">فیلتر جستجو</a>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <section id="serials-upd">
+                            <div class="serial-updates">
+                                <h1 class="serial-updates-title"><i class="fas fa-sync"></i> آپدیت سریال ها </h1>
+                                <div class="view-all-serial-updates">
+                                    <a href="#">مشاهده همه</a>
+                                </div>
+                            </div>
+
+                            <!-- new serialas container -->
+                            <section class="serials-container">
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title=" سریال The Morning show" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy"
+                                                src="assest/images/thumbmails/The-Morning-show-s2-jadval.jpg"
+                                                alt="سریال The Morning show">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>سریال The Morning show</p>
+                                            <span class="serial-badge">دیروز</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="سریال نقاب The Veil" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy" src="assest/images/thumbmails/The-veil.jpg"
+                                                alt="سریال نقاب The Veil">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>سریال نقاب The Veil</p>
+                                            <span class="serial-badge">دیروز</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="سریال هیلز Heels" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy" src="assest/images/thumbmails/Heels-s1-jadval.jpg"
+                                                alt="سریال هیلز Heels">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>سریال هیلز Heels</p>
+                                            <span class="serial-badge">دیروز</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="سریال خویشاوند Kin" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy" src="assest/images/thumbmails/Kin.jpg"
+                                                alt="سریال خویشاوند Kin">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>سریال خویشاوند Kin</p>
+                                            <span class="serial-badge">دیروز</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="سریال هانیبال HaniBall" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy" src="assest/images/thumbmails/Hannibal-s1-jadval.jpg"
+                                                alt="سریال هانیبال HaniBall">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>سریال هانیبال HaniBall</p>
+                                            <span class="serial-badge">۲ روز پیش</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="سریال تایتان ها Titans" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy" src="assest/images/thumbmails/Titans-s3-jadval.jpg"
+                                                alt="سریال تایتان ها Titans">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>سریال تایتان ها Titans</p>
+                                            <span class="serial-badge">۲ روز پیش</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="سریال استار گرل StarGirl" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy" src="assest/images/thumbmails/Stargirl-s2-jadval.jpg"
+                                                alt="سریال استار گرل StarGirl">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>سریال استار گرل StarGirl</p>
+                                            <span class="serial-badge">۳ روز پیش</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="سریال قاضی شیطان The Devil Judge" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy"
+                                                src="assest/images/thumbmails/The-Devil-Judge-s1-jadval.jpg"
+                                                alt="سریال قاضی شیطان The Devil Judge">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>سریال قاضی شیطان The Devil Judge</p>
+                                            <span class="serial-badge">۳ روز پیش</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="سریال Loves in Black hole" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy"
+                                                src="assest/images/thumbmails/Love-in-Black-hole-s1-jadval.jpg"
+                                                alt="سریال Loves in Black hole">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>سریال Loves in Black hole</p>
+                                            <span class="serial-badge">۴ روز پیش</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="سریال املاک سورئال SurrealEstate" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy"
+                                                src="assest/images/thumbmails/Surreal-Estate-s1-jadval.jpg"
+                                                alt="سریال املاک سورئال SurrealEstate">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>سریال املاک سورئال SurrealEstate</p>
+                                            <span class="serial-badge">۵ روز پیش</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+                            </section>
+                            <!-- ---------- -->
+                            <!-- ---------- -->
+                            <!-- ---------- -->
+
+                            <!-- Dubbed Section -->
+                            <section class="dubbed-section">
+                                <div class="dubbed-mic">
+                                    <div class="dubbed-img-container">
+                                        <img loading="lazy" src="assest/images/icons/mic-4029237-3337935.png" alt="">
+                                    </div>
+                                    <div class="dubbed-text-container">
+                                        <p>فقط در فلیکس مووی</p>
+                                        <h1>دوبله های فارسی</h1>
+                                    </div>
+                                </div>
+
+                                <div class="dubbed-options">
+                                    <div class="fa-film-dubbed">
+                                        <a title="فیلم های دوبله فارسی" href="#">فیلم های دوبله فارسی</a>
+                                    </div>
+                                    <div class="fa-animation-dubbed">
+                                        <a title="انیمیشن دوبله فارسی" href="#">انیمیشن دوبله فارسی</a>
+                                    </div>
+                                </div>
+                            </section>
+
+
+                            <div class="serial-updates coming-soon-serials-title">
+                                <h1 class="serial-updates-title"><i class="fas fa-film"></i> به زودی </h1>
+                                <div class="view-all-serial-updates">
+                                    <a href="#">مشاهده همه</a>
+                                </div>
+                            </div>
+                            <!-- --------------- -->
+                            <!-- --------------- -->
+                            <!-- --------------- -->
+
+                            <!-- Coming Soon Serials container -->
+                            <section class="serials-container coming-soon-serials">
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title=" فیلم ماتریکس The Matrix ۴ ۲۰۲۱" href="matrix.html">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy" src="assest/images/thumbmails/Matrix-4-2021-banner.jpg"
+                                                alt="فیلم ماتریکس The Matrix ۴ ۲۰۲۱">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>فیلم ماتریکس The Matrix ۴ ۲۰۲۱</p>
+                                            <span class="serial-badge">امروز</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="فیلم مرد عنکبوتی راهی به خانه نیست" href="spiderman.html">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy" src="assest/images/thumbmails/Spider-man-new.jpg"
+                                                alt="فیلم مرد عنکبوتی راهی به خانه نیست">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>فیلم مرد عنکبوتی راهی به خانه نیست</p>
+                                            <span class="serial-badge">امروز</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="فیلم Venom ۲۰۲۱ ۲" href="venom.html">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy" src="assest/images/thumbmails/Venom-new.jpg"
+                                                alt="فیلم Venom ۲۰۲۱ ۲">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>فیلم Venom ۲۰۲۱ ۲</p>
+                                            <span class="serial-badge">امروز</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="فیلم شانگ چی Shang Chi ۲۰۲۱" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy" src="assest/images/thumbmails/Shang-Chi-2021-banner.jpg"
+                                                alt="فیلم شانگ چی Shang Chi ۲۰۲۱">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>فیلم شانگ چی Shang Chi ۲۰۲۱</p>
+                                            <span class="serial-badge">امروز</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="فیلم The Batman ۲۰۲۲" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy"
+                                                src="assest/images/thumbmails/the-Batman-2022-Banner.jpg"
+                                                alt="فیلم The Batman ۲۰۲۲">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>فیلم The Batman ۲۰۲۲</p>
+                                            <span class="serial-badge">امروز</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="سریال HawKeye هاکای" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy" src="assest/images/thumbmails/hawkay-s1-jadval.jpg"
+                                                alt="سریال HawKeye هاکای">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>سریال HawKeye هاکای</p>
+                                            <span class="serial-badge">امروز</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+
+                                <!-- Serial Update Container -->
+                                <div class="serial-container">
+                                    <a title="سریال وایکینگ ها والهالا Vikings Valhalla" href="#">
+                                        <div class="serial-thumbmail">
+                                            <img loading="lazy" src="assest/images/thumbmails/viking.jpg"
+                                                alt="سریال وایکینگ ها والهالا Vikings Valhalla">
+                                        </div>
+
+                                        <div class="serial-overlay">
+                                            <p>سریال وایکینگ ها والهالا Vikings Valhalla</p>
+                                            <span class="serial-badge">امروز</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Serial Update Container end -->
+                            </section>
+                            <!-- ----------- -->
+                            <!-- ----------- -->
+                            <!-- ----------- -->
+                        </section>
+                        <!-- New serials container end -->
+
+                        <!-- Search Filter -->
+                        <section class="search-filter">
+                            <button class="closeSearchFilter"><i class="fas fa-times"></i></button>
+                            <div class="search-filter-inner">
+                                <h1>تنظیمات نمایش</h1>
+                                <div class="form-group-container">
+                                    <form id="searchfilter-form" action="index.html" method="GET" role="search">
+                                        <div class="form-group-title SearchBoxTitle">
+                                            <a id="type" class="searchbox-btn" href="javascript:void(0)">نوع</a>
+                                        </div>
+                                        <!-- film type -->
+                                        <div class="form-group-control normal-search-filter">
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    همه
+                                                    <input type="radio" id="cat-all" name="cat-a" value="همه">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    فیلم خارجی
+                                                    <input type="radio" id="cat-foreign" name="cat-a"
+                                                        value="فیلم خارجی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    فیلم ایرانی
+                                                    <input type="radio" id="cat-irani" name="cat-a" value="فیلم ایرانی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    سریال خارجی
+                                                    <input type="radio" id="cat-for-serial" name="cat-a"
+                                                        value="سریال خارجی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    سریال ایرانی
+                                                    <input type="radio" id="cat-irani-serial" name="cat-a"
+                                                        value="سریال ایرانی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <!-- film type end -->
+                                        <!-- ------------- -->
+                                        <!-- ------------- -->
+
+                                        <!-- genre type -->
+                                        <div class="form-group-title SearchBoxTitle">
+                                            <a id="janr" class="searchbox-btn" href="javascript:void(0)">ژانر</a>
+                                        </div>
+                                        <div class="form-group-control min-searchfilter minSB">
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    درام
+                                                    <input type="radio" id="cat-dream" name="cat-j" value="درام" />
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    اکشن
+                                                    <input type="radio" id="cat-action" name="cat-j" value="اکشن">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    کمدی
+                                                    <input type="radio" id="cat-comedy" name="cat-j" value="کمدی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    هیجان انگیز
+                                                    <input type="radio" id="cat-thri" name="cat-j" value="هیجان انگیز">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    ماجراجویی
+                                                    <input type="radio" id="cat-adve" name="cat-j" value="ماجراجویی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    خانوادگی
+                                                    <input type="radio" id="cat-fami" name="cat-j" value="خانوادگی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    انیمیشن
+                                                    <input type="radio" id="cat-anim" name="cat-j" value="انیمیشن">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    جنایی
+                                                    <input type="radio" id="cat-crim" name="cat-j" value="جنایی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    فانتزی
+                                                    <input type="radio" id="cat-fant" name="cat-j" value="فانتزی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    علمی تخیلی
+                                                    <input type="radio" id="cat-fict" name="cat-j" value="علمی تخیلی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    رازآلود
+                                                    <input type="radio" id="cat-ster" name="cat-j" value="رازآلود">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    رمانتیک
+                                                    <input type="radio" id="cat-roman" name="cat-j" value="رمانتیک">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    ترسناک
+                                                    <input type="radio" id="cat-scary" name="cat-j" value="ترسناک">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    تاریخی
+                                                    <input type="radio" id="cat-histo" name="cat-j" value="تاریخی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    جنگی
+                                                    <input type="radio" id="cat-war" name="cat-j" value="جنگی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    بیوگرافی
+                                                    <input type="radio" id="cat-bio" name="cat-j" value="بیوگرافی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    موزیکال
+                                                    <input type="radio" id="cat-musical" name="cat-j" value="موزیکال">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    کوتاه
+                                                    <input type="radio" id="cat-short" name="cat-j" value="کوتاه">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    ورزشی
+                                                    <input type="radio" id="cat-sport" name="cat-j" value="ورزشی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    وسترن
+                                                    <input type="radio" id="cat-west" name="cat-j" value="وسترن">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    موزیک
+                                                    <input type="radio" id="cat-music" name="cat-j" value="موزیک">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    مستند
+                                                    <input type="radio" id="cat-dume" name="cat-j" value="مستند">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    اجتماعی
+                                                    <input type="radio" id="cat-social" name="cat-j" value="اجتماعی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    شوی تلویزیونی
+                                                    <input type="radio" id="cat-tvshow" name="cat-j"
+                                                        value="شوی تلویزیونی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    تلویزیونی
+                                                    <input type="radio" id="cat-tv" name="cat-j" value="تلویزیونی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    عاشقانه
+                                                    <input type="radio" id="cat-romantic" name="cat-j" value="عاشقانه">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <!-- genre type end -->
+                                        <!-- -------------- -->
+                                        <!-- -------------- -->
+
+                                        <!-- news film -->
+                                        <div class="form-group-title SearchBoxTitle">
+                                            <a id="news-btn" class="searchbox-btn" href="javascript:void(0)">جدیدترین
+                                                ها</a>
+                                        </div>
+                                        <div class="form-group-control normal-search-filter">
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    جدید ترین ها
+                                                    <input type="radio" id="cat-news" name="cat-n" value="جدیدترین">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    قدیمی ترین ها
+                                                    <input type="radio" id="cat-olds" name="cat-n" value="قدیمی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    محبوب ترین ها
+                                                    <input type="radio" id="cat-popular" name="cat-n" value="محبوب ">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    امتیاز
+                                                    <input type="radio" id="cat-for-score" name="cat-n"
+                                                        value="بر اساس امتیاز">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <!-- news film end -->
+                                        <!-- ------------- -->
+                                        <!-- ------------- -->
+
+                                        <!-- dubbed film -->
+                                        <div class="form-group-title SearchBoxTitle">
+                                            <a id="dubbed-btn" class="searchbox-btn" href="javascript:void(0)">دوبله و
+                                                زیرنویس</a>
+                                        </div>
+                                        <div class="form-group-control normal-search-filter">
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    دوبله شده
+                                                    <input type="radio" id="cat-dubbed" name="cat-ds" value="دوبله شده">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    زیرنویس
+                                                    <input type="radio" id="cat-subtitle" name="cat-ds" value="زیرنویس">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <!-- dubbed film end -->
+                                        <!-- --------------- -->
+                                        <!-- --------------- -->
+
+                                        <!-- year filter starts -->
+                                        <div class="Ofyear-Unyear">
+                                            <div class="of-year">
+                                                <div class="form-group-title SearchBoxTitle">
+                                                    <a id="ofyear-btn" class="searchbox-btn"
+                                                        href="javascript:void(0)">از
+                                                        سال</a>
+                                                </div>
+                                                <div class="form-group-control min-searchfilter minSB">
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۱۹۹۹
+                                                            <input type="radio" id="cat-of1999" name="cat-ofyear"
+                                                                value="۱۹۹۹">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۰
+                                                            <input type="radio" id="cat-of2000" name="cat-ofyear"
+                                                                value="۲۰۰۰">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۱
+                                                            <input type="radio" id="cat-of2001" name="cat-ofyear"
+                                                                value="۲۰۰۱">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۲
+                                                            <input type="radio" id="cat-of2002" name="cat-ofyear"
+                                                                value="۲۰۰۲">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۳
+                                                            <input type="radio" id="cat-of2003" name="cat-ofyear"
+                                                                value="۲۰۰۳">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۴
+                                                            <input type="radio" id="cat-of2004" name="cat-ofyear"
+                                                                value="۲۰۰۴">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۵
+                                                            <input type="radio" id="cat-of2005" name="cat-ofyear"
+                                                                value="۲۰۰۵">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۶
+                                                            <input type="radio" id="cat-of2006" name="cat-ofyear"
+                                                                value="۲۰۰۶">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۷
+                                                            <input type="radio" id="cat-of2007" name="cat-ofyear"
+                                                                value="۲۰۰۷">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۸
+                                                            <input type="radio" id="cat-of2008" name="cat-ofyear"
+                                                                value="۲۰۰۸">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۹
+                                                            <input type="radio" id="cat-of2009" name="cat-ofyear"
+                                                                value="۲۰۰۹">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۰
+                                                            <input type="radio" id="cat-of2010" name="cat-ofyear"
+                                                                value="۲۰۱۰">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۱
+                                                            <input type="radio" id="cat-of2011" name="cat-ofyear"
+                                                                value="۲۰۱۱">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۲
+                                                            <input type="radio" id="cat-of2012" name="cat-ofyear"
+                                                                value="۲۰۱۲">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۳
+                                                            <input type="radio" id="cat-of2013" name="cat-ofyear"
+                                                                value="۲۰۱۳">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۴
+                                                            <input type="radio" id="cat-of2014" name="cat-ofyear"
+                                                                value="۲۰۱۴">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۵
+                                                            <input type="radio" id="cat-of2015" name="cat-ofyear"
+                                                                value="۲۰۱۵">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۶
+                                                            <input type="radio" id="cat-of2016" name="cat-ofyear"
+                                                                value="۲۰۱۶">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۷
+                                                            <input type="radio" id="cat-of2017" name="cat-ofyear"
+                                                                value="۲۰۱۷">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۸
+                                                            <input type="radio" id="cat-of2018" name="cat-ofyear"
+                                                                value="۲۰۱۸">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۹
+                                                            <input type="radio" id="cat-of2019" name="cat-ofyear"
+                                                                value="۲۰۱۹">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۲۰
+                                                            <input type="radio" id="cat-of2020" name="cat-ofyear"
+                                                                value="۲۰۲۰">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۲۱
+                                                            <input type="radio" id="cat-of2021" name="cat-ofyear"
+                                                                value="۲۰۲۱">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ------------------ -->
+                                            <!-- ------------------ -->
+
+                                            <!-- year filter --->
+                                            <div class="un-year">
+                                                <div class="form-group-title SearchBoxTitle">
+                                                    <a id="unyear-btn" class="searchbox-btn"
+                                                        href="javascript:void(0)">تا
+                                                        سال</a>
+                                                </div>
+                                                <div class="form-group-control min-searchfilter minSB">
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۱۹۹۹
+                                                            <input type="radio" id="cat-1999" name="cat-unyear"
+                                                                value="۱۹۹۹">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۰
+                                                            <input type="radio" id="cat-2000" name="cat-unyear"
+                                                                value="۲۰۰۰">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۱
+                                                            <input type="radio" id="cat-un2001" name="cat-unyear"
+                                                                value="۲۰۰۱">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۲
+                                                            <input type="radio" id="cat-un2002" name="cat-unyear"
+                                                                value="۲۰۰۲">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۳
+                                                            <input type="radio" id="cat-un2003" name="cat-unyear"
+                                                                value="۲۰۰۳">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۴
+                                                            <input type="radio" id="cat-un2004" name="cat-unyear"
+                                                                value="۲۰۰۴">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۵
+                                                            <input type="radio" id="cat-un2005" name="cat-unyear"
+                                                                value="۲۰۰۵">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۶
+                                                            <input type="radio" id="cat-un2006" name="cat-unyear"
+                                                                value="۲۰۰۶">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۷
+                                                            <input type="radio" id="cat-un2007" name="cat-unyear"
+                                                                value="۲۰۰۷">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۸
+                                                            <input type="radio" id="cat-un2008" name="cat-unyear"
+                                                                value="۲۰۰۸">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۰۹
+                                                            <input type="radio" id="cat-un2009" name="cat-unyear"
+                                                                value="۲۰۰۹">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۰
+                                                            <input type="radio" id="cat-un2010" name="cat-unyear"
+                                                                value="۲۰۱۰">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۱
+                                                            <input type="radio" id="cat-un2011" name="cat-unyear"
+                                                                value="۲۰۱۱">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۲
+                                                            <input type="radio" id="cat-un2012" name="cat-unyear"
+                                                                value="۲۰۱۲">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۳
+                                                            <input type="radio" id="cat-un2013" name="cat-unyear"
+                                                                value="۲۰۱۳">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۴
+                                                            <input type="radio" id="cat-un2014" name="cat-unyear"
+                                                                value="۲۰۱۴">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۵
+                                                            <input type="radio" id="cat-un2015" name="cat-unyear"
+                                                                value="۲۰۱۵">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۶
+                                                            <input type="radio" id="cat-un2016" name="cat-unyear"
+                                                                value="۲۰۱۶">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۷
+                                                            <input type="radio" id="cat-un2017" name="cat-unyear"
+                                                                value="۲۰۱۷">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۸
+                                                            <input type="radio" id="cat-un2018" name="cat-unyear"
+                                                                value="۲۰۱۸">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۱۹
+                                                            <input type="radio" id="cat-un2019" name="cat-unyear"
+                                                                value="۲۰۱۹">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۲۰
+                                                            <input type="radio" id="cat-un2020" name="cat-unyear"
+                                                                value="۲۰۲۰">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cr-container">
+                                                        <label class="custom-radio">
+                                                            ۲۰۲۱
+                                                            <input type="radio" id="cat-un2021" name="cat-unyear"
+                                                                value="۲۰۲۱">
+                                                            <span class="radio-mark"></span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- year filter end -->
+                                        <!-- --------------- -->
+                                        <!-- --------------- -->
+
+                                        <!-- country type start -->
+                                        <div class="form-group-title SearchBoxTitle">
+                                            <a id="country" class="searchbox-btn" href="javascript:void(0)">کشور</a>
+                                        </div>
+                                        <div class="form-group-control min-searchfilter minSB">
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    آمریکا
+                                                    <input type="radio" id="cat-american" name="cat-country"
+                                                        value="آمریکا" />
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    ایران
+                                                    <input type="radio" id="cat-iran" name="cat-country" value="ایران">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    انگلستان
+                                                    <input type="radio" id="cat-england" name="cat-country"
+                                                        value="انگلستان">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    کانادا
+                                                    <input type="radio" id="cat-canada" name="cat-country"
+                                                        value="کانادا">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    فرانسه
+                                                    <input type="radio" id="cat-france" name="cat-country"
+                                                        value="فرانسه">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    کره جنوبی
+                                                    <input type="radio" id="cat-korea" name="cat-country"
+                                                        value="کره جنوبی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    چین
+                                                    <input type="radio" id="cat-china" name="cat-country" value="چین">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    هند
+                                                    <input type="radio" id="cat-india" name="cat-country" value="هند">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    آلمان
+                                                    <input type="radio" id="cat-germany" name="cat-country"
+                                                        value="آلمان">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    ژاپن
+                                                    <input type="radio" id="cat-japan" name="cat-country" value="ژاپن">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    استرالیا
+                                                    <input type="radio" id="cat-australia" name="cat-country"
+                                                        value="استرالیا">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    اسپانیا
+                                                    <input type="radio" id="cat-spain" name="cat-country"
+                                                        value="اسپانیا">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    بلژیک
+                                                    <input type="radio" id="cat-belgium" name="cat-country"
+                                                        value="بلژیک">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    هنگ کنگ
+                                                    <input type="radio" id="cat-hongkong" name="cat-country"
+                                                        value="هنگ کنگ">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    ایتالیا
+                                                    <input type="radio" id="cat-italy" name="cat-country"
+                                                        value="ایتالیا">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    روسیه
+                                                    <input type="radio" id="cat-russia" name="cat-country"
+                                                        value="روسیه">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    ایرلند
+                                                    <input type="radio" id="cat-ereland" name="cat-country"
+                                                        value="ایرلند">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    دانمارک
+                                                    <input type="radio" id="cat-denmark" name="cat-country"
+                                                        value="دانمارک">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    سوئد
+                                                    <input type="radio" id="cat-sweden" name="cat-country" value="سوئد">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    نروژ
+                                                    <input type="radio" id="cat-norway" name="cat-country" value="نروژ">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    لهستان
+                                                    <input type="radio" id="cat-poland" name="cat-country"
+                                                        value="لهستان">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    مجارستان
+                                                    <input type="radio" id="cat-hungary" name="cat-country"
+                                                        value="مجارستان">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    تایلند
+                                                    <input type="radio" id="cat-thailand" name="cat-country"
+                                                        value="تایلند">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    ترکیه
+                                                    <input type="radio" id="cat-turkey" name="cat-country"
+                                                        value="ترکیه">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    هلند
+                                                    <input type="radio" id="cat-netherlands" name="cat-country"
+                                                        value="هلند">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    سوئیس
+                                                    <input type="radio" id="cat-swiss" name="cat-country" value="سوئیس">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    برزیل
+                                                    <input type="radio" id="cat-brazil" name="cat-country"
+                                                        value="برزیل">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    امارات متحده عربی
+                                                    <input type="radio" id="cat-unitedarab" name="cat-country"
+                                                        value="امارات متحده عربی">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    بنگلادش
+                                                    <input type="radio" id="cat-bangladesh" name="cat-country"
+                                                        value="بنگلادش">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    تاجیکستان
+                                                    <input type="radio" id="cat-tajik" name="cat-country"
+                                                        value="تاجیکستان">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    فنلاند
+                                                    <input type="radio" id="cat-fanland" name="cat-country"
+                                                        value="فنلاند">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    ارمنستان
+                                                    <input type="radio" id="cat-armanestan" name="cat-country"
+                                                        value="ارمنستان">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <!-- countery type end -->
+                                        <!-- ----------------- -->
+                                        <!-- ----------------- -->
+
+                                        <!-- age type -->
+                                        <div class="form-group-title SearchBoxTitle">
+                                            <a id="ages" class="searchbox-btn" href="javascript:void(0)">رده سنی</a>
+                                        </div>
+                                        <div class="form-group-control min-searchfilter minSB">
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    NA
+                                                    <input type="radio" id="cat-na" name="cat-age" value="NA" />
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    R
+                                                    <input type="radio" id="cat-r" name="cat-age" value="R">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    PG-۱۳
+                                                    <input type="radio" id="cat-pg13" name="cat-age" value="PG-۱۳">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    p
+                                                    <input type="radio" id="cat-p" name="cat-age" value="p">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    Not Rated
+                                                    <input type="radio" id="cat-not-rated" name="cat-age"
+                                                        value="Not Rated">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    TV-MA
+                                                    <input type="radio" id="cat-tvma" name="cat-age" value="TV-MA">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    G
+                                                    <input type="radio" id="cat-g" name="cat-age" value="G">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    TV-۱۴
+                                                    <input type="radio" id="cat-tv14" name="cat-age" value="TV-۱۴">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    TV-PG
+                                                    <input type="radio" id="cat-tvpg" name="cat-age" value="TV-PG">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <!-- age type end -->
+                                        <!-- ------------ -->
+                                        <!-- ------------ -->
+
+                                        <!-- score -->
+                                        <div class="form-group-title SearchBoxTitle">
+                                            <a id="score" class="searchbox-btn" href="javascript:void(0)">امتیاز</a>
+                                        </div>
+                                        <div class="form-group-control min-searchfilter minSB">
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    ۰ تا ۲
+                                                    <input type="radio" id="cat-0un2" name="cat-scores"
+                                                        value="۰ تا ۲" />
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    ۲ تا ۵
+                                                    <input type="radio" id="cat-2un5" name="cat-scores" value="۲ تا ۵">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    ۵ تا ۷
+                                                    <input type="radio" id="cat-5un7" name="cat-scores" value="۵ تا ۷">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="cr-container">
+                                                <label class="custom-radio">
+                                                    بالای ۷
+                                                    <input type="radio" id="cat-under7" name="cat-scores"
+                                                        value="بالای ۷">
+                                                    <span class="radio-mark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <!-- score end -->
+                                        <!-- --------- -->
+                                        <button class="FilterBoxBtn">جستجو</button>
+                                        <!-- serach filter button -->
+                                    </form>
+                                    <!-- Search form fields end -->
+                                </div>
+                            </div>
+                        </section>
+                </aside>
+                <!-- aside end -->
+            </div>
+        </article>
+    </section>
+    <!-- main body end -->
+    <!-- ------------- -->
+    <!-- ------------- -->
+
+    <!-- footer start here -->
+    <footer id="index-footer" class="footer">
+
+        <!-- footer requament section -->
+        <section class="footer-section container">
+            <div class="footer-right-aside">
+                <div class="req-software">
+                    <div class="footer-box yellow-box">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <div class="footer-text">
+                        <a href="reqs/kmplayer.html">پیش نیاز ها</a>
+                        <a href="reqs/kmplayer.html">نرم افزار های پخش فیلم <i
+                                class="fas fa-long-arrow-alt-left"></i></a>
+                    </div>
+                </div>
+                <div class="req-software">
+                    <div class="footer-box blue-box">
+                        <i class="fas fa-volume-up"></i>
+                    </div>
+                    <div class="footer-text">
+                        <a href="reqs/addAudioToFilm.html">پیش نیاز ها</a>
+                        <a href="reqs/addAudioToFilm.html">راهنمای تنظیم صدا <i
+                                class="fas fa-long-arrow-alt-left"></i></a>
+                    </div>
+                </div>
+                <div class="req-software">
+                    <div class="footer-box green-box">
+                        <i class="fas fa-photo-video"></i>
+                    </div>
+                    <div class="footer-text">
+                        <a href="reqs/videoformats.html">پیش نیاز ها</a>
+                        <a href="reqs/videoformats.html">راهنمای فرمت ها <i class="fas fa-long-arrow-alt-left"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-left-aside">
+                <a href="#" class="instagram">
+                    <div class="social-icons ">
+                        <p class="social-text">
+                            <i class="fab fa-instagram"></i> <span>صفحه اینستاگرام</span>
+                        </p>
+                        <p class="arrow-social">
+                            <i class="fa fa-angle-left"></i>
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" class="telegram">
+                    <div class="social-icons ">
+                        <p class="social-text">
+                            <i class="fab fa-telegram-plane"></i> <span>کانال تلگرام</span>
+                        </p>
+                        <p class="arrow-social">
+                            <i class="fa fa-angle-left"></i>
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!-- footer requament end -->
+        <!-- -------------------- -->
+        <!-- -------------------- -->
+
+        <!-- main footer section start here -->
+        <section class="footer-bg">
+
+            <!-- change footer background btn-->
+            <button id="change-footer-bg"><i class="fas fa-photo-video"></i></button>
+
+            <div class="footer-nav container">
+                <div class="footer-logo-container">
+                    <p class="footer-logo-text"><i>F</i>lix <i>M</i>ovie </p>
+                    <div class="desktop-logo-container">
+                        <a href="index.html">
+                            <svg class="desktop-logo" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+                                version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512"
+                                style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                <g>
+                                    <linearGradient xmlns="http://www.w3.org/2000/svg" id="SVGID_1_"
+                                        gradientUnits="userSpaceOnUse" x1="256" x2="256" y1="496" y2="16">
+                                        <stop stop-opacity="1" stop-color="#fa697c" offset="0" />
+                                        <stop stop-opacity="1" stop-color="#fa9f6f" offset="1" />
+                                    </linearGradient>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path
+                                                d="m100 256c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm296 160h-360v40h360v40h40v-40h40v-40h-40zm-296-240c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0-80c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm312 0c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm40-80h-392c-33.084 0-60 26.916-60 60v240c0 33.084 26.916 60 60 60h392c33.084 0 60-26.916 60-60v-240c0-33.084-26.916-60-60-60zm20 300c0 11.028-8.972 20-20 20h-392c-11.028 0-20-8.972-20-20v-240c0-11.028 8.972-20 20-20h392c11.028 0 20 8.972 20 20zm-276-20 133.333-100-133.333-100zm40-120 26.667 20-26.667 20zm176 0c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0 80c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20z"
+                                                fill="url(#SVGID_1_)" data-original="url(#SVGID_1_)"
+                                                style="fill: auto;"> />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-nav-links">
+                    <h1 class="footer-nav-link-title">ناوبری</h1>
+                    <ul>
+                        <li><a href="#">فیلم خارجی</a></li>
+                        <li><a href="#">فیلم ایرانی</a></li>
+                        <li><a href="#">انیمیشن</a></li>
+                        <li><a href="#">دوبله فارسی</a></li>
+                        <li><a href="#">سریال</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav-links">
+                    <h1 class="footer-nav-link-title">لینک های مفید</h1>
+                    <ul>
+                        <li><a href="blog.html">نقد و بررسی فیلم</a></li>
+                        <li><a href="#">به روزرسانی ها</a></li>
+                        <li><a href="#">اشتراک ویژه</a></li>
+                        <li><a href="blog.html">وبلاگ</a></li>
+                        <li><a href="#">خدمات</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav-links">
+                    <h1 class="footer-nav-link-title">لینک های مفید</h1>
+                    <ul>
+                        <li><a href="contactus.html">تماس باما</a></li>
+                        <li><a href="404.html">صفحه ۴۰۴</a></li>
+                        <li><a href="#">قوانین و مقررات</a></li>
+                        <li><a href="#"> نسخه ویدیو پلیر</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-second-nav container">
+                <div class="form-control">
+                    <p>از اخبار سینما با خبر شوید.</p>
+                    <form id="newsletter-inp" name="newsletter-inp" action="/">
+                        <button class="newsletter-btn"></button>
+                        <input placeholder="ایمیل" type="email" name="newsletter" id="newsletter" autocomplete="on"
+                            spellcheck="false">
+                        <div class="newsletter-err">
+                            <p></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="socials">
+                    <ul>
+                        <div class="socials-cr">
+                            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                        </div>
+                        <div class="socials-cr">
+                            <a href="#"><i class="fab fa-twitch"></i></a>
+                        </div>
+                        <div class="socials-cr">
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="socials-cr">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copy-right">
+                <p>تمامی حقوق برای سایت <span>فلیکس مووی</span> محفوظ می باشد.</p>
+            </div>
+
+            <section class="next-movie">
+                <p>بازگشت به بالا</p>
+                <a id="gotop"><button><i class="fas fa-angle-up"></i></button></a>
+            </section>
+        </section>
+        <!-- main footer section end-->
+    </footer>
+    <!-- footer end -->
+    <!-- ---------- -->
+    <!-- ---------- -->
+
+    <!-- Script Include -->
+    <script src="js/app.js"></script>
+    <script src="js/SearchFilter.js"></script>
+    <!-- Scripts Include end-->
+</body>
+
+</html>

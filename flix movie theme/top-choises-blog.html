@@ -1,0 +1,808 @@
+<!-- Project Name : FlixMovie -->
+<!-- Version : 1.0 -->
+<!-- Created Data : 2021/09/16 | 1400/06/25 -->
+<!-- Created By : Mahdi Illusion -->
+<!-- All rights reserved -->
+
+<html dir="rtl" lang="fa-IR" locale="IRAN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="keywords" content="MovieFlix Movie Theme">
+    <meta name="locale" content="fa_IR">
+    <meta name="url" content="https://FlixMovie.bmdec.ir">
+    <meta name="type" content="movie theme">
+    <meta name="author" content="Admin">
+    <meta name="engineer" content="Mahdi Rostami">
+    <meta name="owner" content="Admin">
+    <meta name="description" content="فلیکس مووی قالب اچ دی ام ال با اپشن های بی نظیر و کاملا بهینه">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#6898f8">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f0f0f">
+    <!-- description -->
+    <title>فلیکس مووی - وبلاگ - برترین ها</title> <!-- Website Title -->
+    <link rel="icon" href="assest/logo/film.ico"> <!-- Favicon -->
+    <link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css"> <!-- Css Include -->
+    <!-- Fontawesome -->
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ---------------- -->
+    <!-- Loader animation -->
+    <script>
+        window.addEventListener("load", function () {
+            document.querySelector('.loader-parent').classList.add('loaded');
+            setTimeout(function () {
+                document.querySelector('.loader-parent').remove();
+            }, 3000)
+        });
+    </script>
+
+    <!-- loader 3 -->
+    <div class="loader-parent loader3">
+        <div class="loader-film-strip">
+            <div class="loader-strip-inner">
+                <div class="loader-film-strip-inner"></div>
+                <div class="loader-film-strip-inner inner-2"></div>
+                <div class="loader-film-strip-inner inner-3"></div>
+                <div class="loader-film-strip-inner inner-4"></div>
+            </div>
+        </div>
+        <p class="loader-text">در حال بارگزاری</p>
+    </div>
+    <!-- Loader animation end -->
+    <!-- --------------- -->
+
+    <!-- scroll top button -->
+    <button data-tooltip="برو به بالا" id="scroll-top-btn-blog" class="scroll-top-button">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <!-- Black mask -->
+    <div class="mask"></div>
+
+    <!-- Mobile Navigation Menu -->
+    <nav class="mobile-navbar">
+        <div class="mobile-logo-container">
+            <a href="index.html">
+                <img loading="lazy" src="assest/logo/mobile-navigation-icon.svg" alt="">
+            </a>
+        </div>
+
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="true">لینک دمو ها</li>
+            <ul class="mobile-menu-collapse">
+                <li class="mobile-link-item"><a href="index.html">صفحه اصلی</a></li>
+                <li class="mobile-link-item"><a href="articles-demos.html">صفحه داخلی پست ها</a></li>
+                <li class="mobile-link-item"><a href="matrix.html">صفحه در حال اکران</a></li>
+                <li class="mobile-link-item"><a href="venom.html">صفحه در حال اکران ۲</a></li>
+                <li class="mobile-link-item"><a href="spiderman.html">صفحه در حال اکران ۳</a></li>
+                <li class="mobile-link-item"><a href="meydanesorkh.html">سریال میدان سرخ</a></li>
+                <li class="mobile-link-item"><a href="contactus.html">صفحه تماس با ما</a></li>
+                <li class="mobile-link-item"><a href="blog.html">وبلاگ</a></li>
+                <li class="mobile-link-item"><a href="actors/KeanuReeves.html">صفحه بازیگران</a></li>
+            </ul>
+
+            <ul class="mobile-navigation-items">
+                <li class="mobile-menu-title" data-dropdown="false"><a href="loaders.html">لودر ها</a> </li>
+            </ul>
+
+            <li class="mobile-menu-title" data-dropdown="true">فیلم خارجی</li>
+            <ul class="mobile-menu-collapse">
+                <li class="mobile-link-item"><a href="#">اکشن</a></li>
+                <li class="mobile-link-item"><a href="#">تخیلی</a></li>
+                <li class="mobile-link-item"><a href="#">علمی</a></li>
+                <li class="mobile-link-item"><a href="#">کمدی</a></li>
+                <li class="mobile-link-item"><a href="#">هندی</a></li>
+                <li class="mobile-link-item"><a href="#">ترسناک</a></li>
+                <li class="mobile-link-item"><a href="#">درام</a></li>
+                <li class="mobile-link-item"><a href="#">تاریخی</a></li>
+                <li class="view-all-videos-mobile"><a href="#" class="view-all-videos "> همه فیلم های خارجی
+                        <svg class="arrow-left-icon" xmlns="http://www.w3.org/2000/svg"
+                            enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"
+                            fill="#f9f9f9">
+                            <rect fill="none" height="24" width="24" />
+                            <path d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z" />
+                        </svg><i></i></a></li>
+            </ul>
+        </ul>
+
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="true">فیلم ایرانی </li>
+            <ul class="mobile-menu-collapse">
+                <li class="mobile-link-item"><a href="#">اجتماعی</a></li>
+                <li class="mobile-link-item"><a href="#">کمدی</a></li>
+                <li class="mobile-link-item"><a href="#">ترسناک</a></li>
+                <li class="mobile-link-item"><a href="#">خانوادگی</a></li>
+                <li class="mobile-link-item"><a href="#">رزمی</a></li>
+                <li class="mobile-link-item"><a href="#">تاریخی</a></li>
+                <li class="view-all-videos-mobile"><a href="#" class="view-all-videos "> همه فیلم های ایرانی
+                        <svg class="arrow-left-icon" xmlns="http://www.w3.org/2000/svg"
+                            enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"
+                            fill="#f9f9f9">
+                            <rect fill="none" height="24" width="24" />
+                            <path d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z" />
+                        </svg><i></i></a></li>
+            </ul>
+        </ul>
+
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">انیمیشن</a> </li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">سریال خارجی</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">دوبله فارسی</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">انیمه</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="#">سریال کره ای</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="true">بهترین ها </li>
+            <ul class="mobile-menu-collapse">
+                <li class="mobile-link-item"><a href="250-imdb.html">۲۵۰ فیلم برتر IMDB</a></li>
+                <li class="mobile-link-item"><a href="collection.html">کالکشن</a></li>
+                <li class="mobile-link-item"><a href="marvel.html">فیلم های Marvel</a></li>
+                <li class="mobile-link-item"><a href="dc-movies.html">فیلم های DC</a></li>
+                <li class="mobile-link-item"><a href="oscar.html">اسکار</a></li>
+                <li class="mobile-link-item"><a href="nostalgia.html">نوستالژی</a></li>
+            </ul>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="contactus.html">ارتباط با ما</a></li>
+        </ul>
+        <ul class="mobile-navigation-items">
+            <li class="mobile-menu-title" data-dropdown="false"><a href="blog.html">نقد و بررسی فیلم</a></li>
+        </ul>
+    </nav>
+    <!-- Mobile Navigation End-->
+    <!-- -------------------- -->
+    <!-- -------------------- -->
+    <!-- -------------------- -->
+
+    <!-- Header -->
+    <header class="header">
+        <!-- Navigation bar on header -->
+        <nav class="desktop-navbar" role="navigation" aria-label="navigation">
+
+            <div class="container desktop-navbar-container">
+
+                <!-- Mobile Navbar -->
+                <div class="mobile-menu-icon">
+                    <svg role="button" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24"
+                        width="24px">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                    </svg>
+                </div>
+
+                <!-- Desktop and mobile logo -->
+                <div class="desktop-logo-container">
+                    <a href="index.html">
+                        <svg class="desktop-logo" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+                            version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512"
+                            style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <linearGradient xmlns="http://www.w3.org/2000/svg" id="SVGID_1_"
+                                    gradientUnits="userSpaceOnUse" x1="256" x2="256" y1="496" y2="16">
+                                    <stop stop-opacity="1" stop-color="#fa697c" offset="0" />
+                                    <stop stop-opacity="1" stop-color="#fa9f6f" offset="1" />
+                                </linearGradient>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path
+                                            d="m100 256c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm296 160h-360v40h360v40h40v-40h40v-40h-40zm-296-240c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0-80c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm312 0c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm40-80h-392c-33.084 0-60 26.916-60 60v240c0 33.084 26.916 60 60 60h392c33.084 0 60-26.916 60-60v-240c0-33.084-26.916-60-60-60zm20 300c0 11.028-8.972 20-20 20h-392c-11.028 0-20-8.972-20-20v-240c0-11.028 8.972-20 20-20h392c11.028 0 20 8.972 20 20zm-276-20 133.333-100-133.333-100zm40-120 26.667 20-26.667 20zm176 0c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0 80c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20z"
+                                            fill="url(#SVGID_1_)" data-original="url(#SVGID_1_)" style="fill: auto;"> />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation Items -->
+                <ul class="navigation-items">
+                    <!-- demo links -->
+                    <div class="menu-with-dropdown">
+                        <li class="navlinks-title"><a href="#">لینک دمو ها <svg class="angle-bottom-menu-icon"
+                                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                    fill="#f9f9f9">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                </svg></a></li>
+                        <ul class="dropdown-desktop-menu">
+                            <li><a href="index.html">صفحه اصلی</a></li>
+                            <li><a href="articles-demos.html">صفحه داخلی پست ها</a></li>
+                            <li><a href="matrix.html">صفحه در حال اکران</a></li>
+                            <li><a href="venom.html">صفحه در حال اکران ۲</a></li>
+                            <li><a href="spiderman.html">صفحه در حال اکران ۳</a></li>
+                            <li><a href="meydanesorkh.html">سریال میدان سرخ</a></li>
+                            <li><a href="contactus.html">صفحه تماس با ما</a></li>
+                            <li><a href="blog.html">وبلاگ</a></li>
+                            <li><a href="actors/KeanuReeves.html">صفحه بازیگران</a></li>
+                        </ul>
+                    </div>
+                    <!-- demo links end -->
+
+                    <div class="menu-with-dropdown">
+                        <li class="navlinks-title"><a href="loaders.html">لودر ها<svg class="angle-bottom-menu-icon"
+                                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                    fill="#f9f9f9">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                </svg></a></li>
+                        <ul class="dropdown-desktop-menu">
+                            <li><a href="#">اکشن</a></li>
+                            <li><a href="#">تخیلی</a></li>
+                            <li><a href="#">علمی</a></li>
+                            <li><a href="#">کمدی</a></li>
+                            <li><a href="#">هندی</a></li>
+                            <li><a href="#">ترسناک</a></li>
+                            <li><a href="#">درام</a></li>
+                            <li><a href="#">تاریخی</a></li>
+                            <li><a href="#" class="view-all-videos"> همه فیلم های خارجی <svg class="arrow-left-icon"
+                                        xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                                        height="24px" viewBox="0 0 24 24" width="24px" fill="#f9f9f9">
+                                        <rect fill="none" height="24" width="24" />
+                                        <path d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z" />
+                                    </svg><i></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-with-dropdown">
+                        <li class="navlinks-title"><a href="#">فیلم ایرانی <svg class="angle-bottom-menu-icon"
+                                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                    fill="#f9f9f9">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                </svg></a></li>
+                        <ul class="dropdown-desktop-menu">
+                            <li><a href="#">اجتماعی</a></li>
+                            <li><a href="#">کمدی</a></li>
+                            <li><a href="#">خانوادگی</a></li>
+                            <li><a href="#">اکشن</a></li>
+                            <li><a href="#">ترسناک</a></li>
+                            <li><a href="#">حادثه ای</a></li>
+                            <li><a href="#">رزمی</a></li>
+                            <li><a href="#">تاریخی</a></li>
+                            <li><a href="#" class="view-all-videos"> همه فیلم های ایرانی <svg class="arrow-left-icon"
+                                        xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                                        height="24px" viewBox="0 0 24 24" width="24px" fill="#f9f9f9">
+                                        <rect fill="none" height="24" width="24" />
+                                        <path d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z" />
+                                    </svg><i></i></a></li>
+                        </ul>
+                    </div>
+                    <li class="navlinks-title"><a href="#"> انیمیشن</a></li>
+                    <li class="navlinks-title"><a href="#"> دوبله فارسی</a></li>
+                    <li class="navlinks-title"><a href="#"> سریال</a></li>
+                    <div class="menu-with-dropdown">
+                        <li class="navlinks-title"><a href="#"> بهترین ها <svg class="angle-bottom-menu-icon"
+                                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                    fill="#f9f9f9">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                                </svg></a></li>
+                        <ul class="dropdown-desktop-menu">
+                            <li><a href="250-imdb.html">۲۵۰ فیلم برتر IMDB </a></li>
+                            <li><a href="collection.html">کالکشن</a></li>
+                            <li><a href="marvel.html">فیلم های Marvel</a></li>
+                            <li><a href="dc-movies.html">فیلم های DC</a></li>
+                            <li><a href="oscar.html"> اسکار</a></li>
+                            <li><a href="nostalgia.html">نوستالژی</a></li>
+                        </ul>
+                    </div>
+
+                    <li class="navlinks-title vip-btn"><a href="blog.html">نقد و بررسی فیلم</a></li>
+                </ul>
+                <!-- Desktop searchbox -->
+                <div class="desktop-searchbox">
+                    <button class="closeSearchBox">بستن</button>
+                    <form id="searchBoxForm" class="desktop-searchbox-form" method="GET" action="\">
+                        <input id="searchInput" autocomplete="off" type="search" placeholder="کلمه مورد نظر">
+                        <button><svg class="searchbox-icon" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+                                version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 98 98"
+                                style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                <g>
+                                    <style xmlns="http://www.w3.org/2000/svg" type="text/css">
+                                        .st0 {
+                                            fill: url(#SVGID_1_);
+                                        }
+                                    </style>
+                                    <linearGradient xmlns="http://www.w3.org/2000/svg" id="SVGID_1_"
+                                        gradientUnits="userSpaceOnUse" x1="49" y1="14.0999" x2="49" y2="87.9001">
+                                        <stop stop-opacity="1" stop-color="#fa697c" offset="0" />
+                                        <stop stop-opacity="1" stop-color="#fa9f6f" offset="1" />
+                                    </linearGradient>
+                                    <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                        d="M85,82.8L69.6,67.3c4.7-5.6,7.5-12.9,7.5-20.7c0-17.9-14.6-32.5-32.5-32.5S12.1,28.7,12.1,46.6  s14.6,32.5,32.5,32.5c7.9,0,15.1-2.8,20.7-7.5L80.8,87c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9C86.2,85.9,86.2,83.9,85,82.8z   M18.1,46.6C18.1,32,30,20.1,44.6,20.1c14.6,0,26.5,11.9,26.5,26.5c0,14.6-11.9,26.5-26.5,26.5C30,73.1,18.1,61.2,18.1,46.6z"
+                                        fill="#000000" data-original="#000000" style="fill: auto;"> />
+                                </g>
+                            </svg>
+                            <!-- Clear search icon -->
+                            <div class="cancelSearchIcon"></div>
+                        </button>
+                    </form>
+                </div>
+
+                <button class="MobileSearchbox-icon-Container"><svg class="Mobile-searchbox-icon"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0"
+                        viewBox="0 0 98 98" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                        <g>
+                            <style xmlns="http://www.w3.org/2000/svg" type="text/css">
+                                .st0 {
+                                    fill: url(#SVGID_1_);
+                                }
+                            </style>
+                            <linearGradient xmlns="http://www.w3.org/2000/svg" id="SVGID_1_"
+                                gradientUnits="userSpaceOnUse" x1="49" y1="14.0999" x2="49" y2="87.9001">
+                                <stop stop-opacity="1" stop-color="#fa697c" offset="0" />
+                                <stop stop-opacity="1" stop-color="#fa9f6f" offset="1" />
+                            </linearGradient>
+                            <path xmlns="http://www.w3.org/2000/svg" class="st0"
+                                d="M85,82.8L69.6,67.3c4.7-5.6,7.5-12.9,7.5-20.7c0-17.9-14.6-32.5-32.5-32.5S12.1,28.7,12.1,46.6  s14.6,32.5,32.5,32.5c7.9,0,15.1-2.8,20.7-7.5L80.8,87c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9C86.2,85.9,86.2,83.9,85,82.8z   M18.1,46.6C18.1,32,30,20.1,44.6,20.1c14.6,0,26.5,11.9,26.5,26.5c0,14.6-11.9,26.5-26.5,26.5C30,73.1,18.1,61.2,18.1,46.6z"
+                                fill="#000000" data-original="#000000" style="fill: auto;"> />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- Header end -->
+    <!-- ---------- -->
+    <!-- ---------- -->
+    <!-- ---------- -->
+
+
+    <!-- top choises articles -->
+    <section class="main-body top-choises-blog" id="index-main-body">
+        <article class="container articles-container">
+            <div class="articles-aside">
+                <!-- Posts Container -->
+                <section id="main-article-container" class="top-choises-articles-blog main-articles">
+                    <div class="main-blog-post">
+                        <div class="last__posts__container">
+
+                            <!--  -->
+                            <div class="last__posts__cr">
+                                <div class="post__comment__length" data-comment-length="تعداد نظرات">
+                                    <i class="far fa-comment-dots"></i><span class="comment__length__span">۷</span>
+                                </div>
+                                <div class="last__post__img">
+                                    <a href="blog-post.html" title="نقد و بررسی فیلم جدید ونوم">
+                                        <img loading="lazy" src="assest/images/thumbmails/venom-thumbnail.jpg"
+                                            alt="فیلم ونوم">
+                                    </a>
+                                </div>
+                                <div class="last__post__text">
+                                    <a href="blog-post.html">نقد و بررسی فیلم جدید ونوم ۲۰۲۱</a>
+                                    <p>به تازگی کمپانی فیلم سازی مارول تصمیم گرفته است که ونوم ۲۰۲۱ را در ۲۱ آبان ۱۴۰۰
+                                        اکران کند ما میخواهیم در این مقاله در مورد این فیلم کمی صحبت کنیم و نقطه و ضعف و
+                                        ...قوت های این فیلم را نقد و بررسی کنیم</p>
+
+                                </div>
+
+                                <!-- post readmore btn and date time  -->
+                                <div class="read__more__button">
+                                    <a href="blog-post.html">ادامه مطلب</a>
+                                </div>
+
+                                <time class="post__date__time">
+                                    <p>۳۰ مهر ۱۴۰۰ <span>/</span> ۳:۱۴ ب.ظ</p>
+                                </time>
+                            </div>
+                            <!--  -->
+
+                            <!--  -->
+                            <div class="last__posts__cr">
+                                <div class="post__comment__length" data-comment-length="تعداد نظرات">
+                                    <i class="far fa-comment-dots"></i><span class="comment__length__span">۳</span>
+                                </div>
+                                <div class="last__post__img">
+                                    <a href="#" title="نقد و بررسی فیلم ارتش مردگان">
+                                        <img loading="lazy" src="assest/images/thumbmails/dead-army.jpg"
+                                            alt="فیلم ارتش مردگان">
+                                    </a>
+                                </div>
+                                <div class="last__post__text">
+                                    <a href="#">نقد و بررسی فیلم ارتش مردگان </a>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                    </p>
+                                </div>
+
+                                <!-- post readmore btn and date time  -->
+                                <div class="read__more__button">
+                                    <a href="#">ادامه مطلب</a>
+                                </div>
+
+                                <time class="post__date__time">
+                                    <p>۳۰ مهر ۱۴۰۰ <span>/</span> ۳:۱۴ ب.ظ</p>
+                                </time>
+                            </div>
+                            <!--  -->
+
+                            <!--  -->
+                            <div class="last__posts__cr">
+                                <div class="post__comment__length" data-comment-length="تعداد نظرات">
+                                    <i class="far fa-comment-dots"></i><span class="comment__length__span">۰</span>
+                                </div>
+                                <div data-post-type="video" class="last__post__img">
+                                    <a href="#" title="فیلم ماتریکس The Matrix ۴ ۲۰۲۱">
+                                        <img loading="lazy" src="assest/images/thumbmails/matrix-poster.jpg"
+                                            alt="فیلم ماتریکس The Matrix ۴ ۲۰۲۱">
+                                    </a>
+                                </div>
+                                <div class="last__post__text">
+                                    <a href="#">ماتریکس ۴ باز با حضور کیانور ریورز</a>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                        برای شرایط فعلی تکنولوژی مورد نیاز...</p>
+                                </div>
+
+                                <!-- post readmore btn and date time  -->
+                                <div class="read__more__button">
+                                    <a href="#">ادامه مطلب</a>
+                                </div>
+
+                                <time class="post__date__time">
+                                    <p>۳۰ مهر ۱۴۰۰ <span>/</span> ۳:۱۴ ب.ظ</p>
+                                </time>
+                            </div>
+                            <!--  -->
+
+                            <!--  -->
+                            <div class="last__posts__cr">
+                                <div class="post__comment__length" data-comment-length="تعداد نظرات">
+                                    <i class="far fa-comment-dots"></i><span class="comment__length__span">۲</span>
+                                </div>
+                                <div class="last__post__img">
+                                    <a href="#" title="نقد و بررسی فیلم جنگ فردا">
+                                        <img loading="lazy" src="assest/images/thumbmails/tommorow-war.jpg"
+                                            alt="فیلم جنگ فردا">
+                                    </a>
+                                </div>
+                                <div class="last__post__text">
+                                    <a href="#">نقد و بررسی فیلم جنگ فردا ۲۰۲۱</a>
+                                    <p>لورم ایپسوم متن ساختگی با تولید از صنعت چاپ و با استفاده از طراحان
+                                        برای شرایط فعلی تکنولوژی مورد نیاز...</p>
+                                </div>
+
+                                <!-- post readmore btn and date time  -->
+                                <div class="read__more__button">
+                                    <a href="#">ادامه مطلب</a>
+                                </div>
+
+                                <time class="post__date__time">
+                                    <p>۳۰ مهر ۱۴۰۰ <span>/</span> ۳:۱۴ ب.ظ</p>
+                                </time>
+                            </div>
+                            <!--  -->
+
+                            <!--  -->
+                            <div class="last__posts__cr">
+                                <div class="post__comment__length" data-comment-length="تعداد نظرات">
+                                    <i class="far fa-comment-dots"></i><span class="comment__length__span">۲۰</span>
+                                </div>
+                                <div data-post-type="video" class="last__post__img">
+                                    <a href="#" title="بتمن">
+                                        <img loading="lazy" src="assest/images/thumbmails/batman.jpg" alt="فیلم بتمن">
+                                    </a>
+                                </div>
+                                <div class="last__post__text">
+                                    <a href="#">تاریخ اکران سری جدید فیلم بتمن</a>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است...
+                                    </p>
+                                </div>
+
+                                <!-- post readmore btn and date time  -->
+                                <div class="read__more__button">
+                                    <a href="#">ادامه مطلب</a>
+                                </div>
+
+                                <time class="post__date__time">
+                                    <p>۳۰ مهر ۱۴۰۰ <span>/</span> ۳:۱۴ ب.ظ</p>
+                                </time>
+                            </div>
+                            <!--  -->
+
+                            <!--  -->
+                            <div class="last__posts__cr">
+                                <div class="post__comment__length" data-comment-length="تعداد نظرات">
+                                    <i class="far fa-comment-dots"></i><span class="comment__length__span">۱۳</span>
+                                </div>
+                                <div class="last__post__img">
+                                    <a href="#" title="هابز و شاو">
+                                        <img loading="lazy" src="assest/images/thumbmails/hobbes-and-shaw.jpg"
+                                            alt="فیلم هابز و شاو">
+                                    </a>
+                                </div>
+                                <div class="last__post__text">
+                                    <a href="#">نگاهی به فیلم هابز و شاو</a>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        برای شرایط فعلی تکنولوژی مورد نیاز...</p>
+                                </div>
+
+                                <!-- post readmore btn and date time  -->
+                                <div class="read__more__button">
+                                    <a href="#">ادامه مطلب</a>
+                                </div>
+
+                                <time class="post__date__time">
+                                    <p>۳۰ مهر ۱۴۰۰ <span>/</span> ۳:۱۴ ب.ظ</p>
+                                </time>
+                            </div>
+                            <!--  -->
+
+                            <!--  -->
+                            <div class="last__posts__cr">
+                                <div class="post__comment__length" data-comment-length="تعداد نظرات">
+                                    <i class="far fa-comment-dots"></i><span class="comment__length__span">۲۲</span>
+                                </div>
+                                <div class="last__post__img">
+                                    <a href="#" title="اضافه شدن شخصیت های مارول به فورتنایت">
+                                        <img loading="lazy" src="assest/blog-images/superman.jpg"
+                                            alt=" اضافه شدن شخصیت های مارول به فورتنایت">
+                                    </a>
+                                </div>
+                                <div class="last__post__text">
+                                    <a href="#">اضافه شدن شخصیت های مارول به فورتنایت</a>
+                                    <p>گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                        برای شرایط فعلی تکنولوژی مورد نیاز...</p>
+                                </div>
+
+                                <!-- post readmore btn and date time  -->
+                                <div class="read__more__button">
+                                    <a href="#">ادامه مطلب</a>
+                                </div>
+
+                                <time class="post__date__time">
+                                    <p>۳۰ مهر ۱۴۰۰ <span>/</span> ۳:۱۴ ب.ظ</p>
+                                </time>
+                            </div>
+                            <!--  -->
+
+                            <!--  -->
+                            <div class="last__posts__cr">
+                                <div class="post__comment__length" data-comment-length="تعداد نظرات">
+                                    <i class="far fa-comment-dots"></i><span class="comment__length__span">۳</span>
+                                </div>
+
+                                <div data-post-type="video" class="last__post__img">
+                                    <a href="#" title="گناهکار">
+                                        <img loading="lazy" src="assest/images/thumbmails/the-guilty.jpg"
+                                            alt="فیلم گناهکار">
+                                    </a>
+                                </div>
+                                <div class="last__post__text">
+                                    <a href="#">نت فلیکس با معرفی فیلم گناهکار ترکوند</a>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                        طراحان...
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                        طراحان...
+                                    </p>
+                                </div>
+
+                                <!-- post readmore btn and date time  -->
+                                <div class="read__more__button">
+                                    <a href="#">ادامه مطلب</a>
+                                </div>
+
+                                <time class="post__date__time">
+                                    <p>۳۰ مهر ۱۴۰۰ <span>/</span> ۳:۱۴ ب.ظ</p>
+                                </time>
+                            </div>
+                            <!--  -->
+
+                            <!--  -->
+                            <div class="last__posts__cr">
+                                <div class="post__comment__length" data-comment-length="تعداد نظرات">
+                                    <i class="far fa-comment-dots"></i><span class="comment__length__span">۵</span>
+                                </div>
+                                <div class="last__post__img">
+                                    <a href="#" title="استاد یین یانگ : رویای ابدیت">
+                                        <img loading="lazy"
+                                            src="assest/images/thumbmails/the-yin-yang-master-dream-of-eternity.jpg"
+                                            alt="فیلم استاد یین یانگ : رویای ابدیت">
+                                    </a>
+                                </div>
+                                <div class="last__post__text">
+                                    <a href="#">شایعاتی در مورد فیلم استاد یین یانگ</a>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                        برای شرایط فعلی تکنولوژی مورد نیاز...</p>
+                                </div>
+
+                                <!-- post readmore btn and date time  -->
+                                <div class="read__more__button">
+                                    <a href="#">ادامه مطلب</a>
+                                </div>
+
+                                <time class="post__date__time">
+                                    <p>۳۰ مهر ۱۴۰۰ <span>/</span> ۳:۱۴ ب.ظ</p>
+                                </time>
+                            </div>
+                            <!--  -->
+
+                            <!--  -->
+                            <div class="last__posts__cr">
+                                <div class="post__comment__length" data-comment-length="تعداد نظرات">
+                                    <i class="far fa-comment-dots"></i><span class="comment__length__span">۵۵</span>
+                                </div>
+                                <div class="last__post__img">
+                                    <a href="#" title="فیلم جدید کندی من ">
+                                        <img loading="lazy" src="assest/images/thumbmails/Candyman-2021-header.jpg"
+                                            alt="کندی من ۲۰۲۱">
+                                    </a>
+                                </div>
+                                <div class="last__post__text">
+                                    <a href="#">فیلم کندی من ۲۰۲۱</a>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                        برای شرایط فعلی تکنولوژی مورد نیاز...</p>
+                                </div>
+
+                                <!-- post readmore btn and date time  -->
+                                <div class="read__more__button">
+                                    <a href="#">ادامه مطلب</a>
+                                </div>
+
+                                <time class="post__date__time">
+                                    <p>۳۰ مهر ۱۴۰۰ <span>/</span> ۳:۱۴ ب.ظ</p>
+                                </time>
+                            </div>
+                            <!--  -->
+
+                            <!--  -->
+                            <div class="last__posts__cr">
+                                <div class="post__comment__length" data-comment-length="تعداد نظرات">
+                                    <i class="far fa-comment-dots"></i><span class="comment__length__span">۲۲</span>
+                                </div>
+                                <div data-post-type="video" class="last__post__img">
+                                    <a href="#" title="ویدیو پلیر">
+                                        <img loading="lazy" src="assest/images/post images/kmplayer-Cover.jpg"
+                                            alt="ویدیو پلیر">
+                                    </a>
+                                </div>
+                                <div class="last__post__text">
+                                    <a href="#">کار با برنامه kmPlayer برای پخش ویدیو</a>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        برای شرایط فعلی تکنولوژی مورد نیاز...</p>
+                                </div>
+
+                                <!-- post readmore btn and date time  -->
+                                <div class="read__more__button">
+                                    <a href="#">ادامه مطلب</a>
+                                </div>
+
+                                <time class="post__date__time">
+                                    <p>۳۰ مهر ۱۴۰۰ <span>/</span> ۳:۱۴ ب.ظ</p>
+                                </time>
+                            </div>
+                            <!--  -->
+
+                            <!--  -->
+                            <div class="last__posts__cr">
+                                <div class="post__comment__length" data-comment-length="تعداد نظرات">
+                                    <i class="far fa-comment-dots"></i><span class="comment__length__span">۲۲</span>
+                                </div>
+                                <div class="last__post__img">
+                                    <a href="#" title="سریال مستر ربات">
+                                        <img loading="lazy" src="assest/images/thumbmails/mr-robot-thumbnail.jpg"
+                                            alt="سریال مستر ربات">
+                                    </a>
+                                </div>
+                                <div class="last__post__text">
+                                    <a href="#">نقد و بررسی سریال مستر ربات</a>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        برای شرایط فعلی تکنولوژی مورد نیاز...</p>
+                                </div>
+
+                                <!-- post readmore btn and date time  -->
+                                <div class="read__more__button">
+                                    <a href="#">ادامه مطلب</a>
+                                </div>
+
+                                <time class="post__date__time">
+                                    <p>۳۰ مهر ۱۴۰۰ <span>/</span> ۳:۱۴ ب.ظ</p>
+                                </time>
+                            </div>
+                            <!--  -->
+
+                            <!-- pagination -->
+                            <section id="post-pages" class="blog-pagination pagination">
+                                <ul id="pages">
+                                    <li class="pagelines"><a class="active-page" id="DefaultPage" href="#">۱</a></li>
+                                    <li class="pagelines"><a href="javascript:void(0)">۲</a></li>
+                                    <li class="pagelines"><a href="javascript:void(0)">۳</a></li>
+                                    <li class="pagelines"><a href="javascript:void(0)">۴</a></li>
+                                    <li class="pagelines"><a href="javascript:void(0)">۵</a></li>
+                                    <li class="pagelines"><a href="javascript:void(0)">بعدی</a></li>
+                                </ul>
+                            </section>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- Right aside section end-->
+                <!-- ---------------------- -->
+                <!-- ---------------------- -->
+                <!-- ---------------------- -->
+
+            </div>
+        </article>
+    </section>
+    <!-- main body end -->
+    <!-- ------------- -->
+    <!-- ------------- -->
+
+    <!-- footer start here -->
+    <footer id="index-footer" class="footer blog-footer">
+
+        <!-- main footer section start here -->
+        <section class="footer-bg">
+            <div class="blog-footer-nav footer-second-nav container">
+                <div class="form-control">
+                    <p>از اخبار سینما با خبر شوید.</p>
+                    <form id="newsletter-inp" name="newsletter-inp" action="/">
+                        <button class="newsletter-btn"></button>
+                        <input placeholder="ایمیل" type="email" name="newsletter" id="newsletter" autocomplete="on"
+                            spellcheck="false">
+                        <div class="newsletter-err">
+                            <p></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="socials">
+                    <ul>
+                        <div class="socials-cr">
+                            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                        </div>
+                        <div class="socials-cr">
+                            <a href="#"><i class="fab fa-twitch"></i></a>
+                        </div>
+                        <div class="socials-cr">
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="socials-cr">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copy-right">
+                <p>استفاده از مطالب وبلاگ <span>فلیکس مووی</span> برای مقاصد غیرتجاری با ذکر نام وبلاگ <span> فلیکس
+                        مووی</span> و لینک منبع ایرادی ندارد.</p>
+            </div>
+        </section>
+        <!-- main footer section end-->
+    </footer>
+    <!-- footer end -->
+    <!-- ---------- -->
+    <!-- ---------- -->
+
+    <!-- Script Include -->
+    <script src="js/app.js"></script>
+    <script src="js/blog.js"></script>
+    <!-- Scripts Include end-->
+</body>
+
+</html>
